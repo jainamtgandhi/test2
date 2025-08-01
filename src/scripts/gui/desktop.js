@@ -9,15 +9,6 @@ if (overlay) {
   console.log('Selection overlay pointer-events:', overlay.style.pointerEvents);
 }
 
-// Add a simple test event listener to the first icon
-const firstIcon = icons[0];
-if (firstIcon) {
-  firstIcon.addEventListener('click', (e) => {
-    console.log('SIMPLE CLICK TEST - Icon clicked:', firstIcon.getAttribute('data-program-name'));
-    e.stopPropagation();
-  });
-}
-
 icons[_0x2f6b83(0xb1)](_0x1f581f=>{const _0x33f093=_0x2f6b83;
   console.log('Setting up click handler for:', _0x1f581f.getAttribute('data-program-name'));
 
