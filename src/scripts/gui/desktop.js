@@ -17,6 +17,15 @@ this['desktop']['addEventListener']('click', (e) => {
   console.log('Desktop area clicked at:', e.clientX, e.clientY);
 });
 
+// Test if desktop-icons container is clickable
+const desktopIcons = this['desktop'].querySelector('.desktop-icons');
+if (desktopIcons) {
+  desktopIcons.addEventListener('click', (e) => {
+    console.log('Desktop icons container clicked at:', e.clientX, e.clientY);
+    console.log('Click target:', e.target);
+  });
+}
+
 icons[_0x2f6b83(0xb1)](_0x1f581f=>{const _0x33f093=_0x2f6b83;
   console.log('Setting up event listener for icon:', _0x1f581f);
   console.log('Icon element:', _0x1f581f.tagName, _0x1f581f.className);
