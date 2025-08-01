@@ -91,7 +91,7 @@
       "assets/apps/projects/mitchivinxp/image5.webp",
       "assets/apps/projects/mitchivinxp/image6.webp"
     ],
-    "title": "MitchIvin XP",
+    "title": "Jainam XP",
     "subtitle": "A fully interactive Windows XP simulation reimagined as a design portfolio experience.",
     "description": "A fully interactive portfolio built inside a custom Windows XP simulation. Made to feel like a working OS, it includes functional apps, retro UI, and detailed screens built from scratch. Every part, from the boot screen to the desktop, was designed to show execution, control, and originality.",
     "bulletPoints": [
@@ -100,7 +100,7 @@
       "Focused on detail, interface design, and creative direction"
     ],
     "toolsUsed": ["HTML/CSS/JS, Generative AI, Illustrator, Photoshop"],
-    "alt": "MitchIvin XP"
+    "alt": "Jainam XP"
   },
   {
    "type": "video",
