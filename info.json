@@ -47,7 +47,7 @@
   },
   "contact": {
     "name": "Jainam Gandhi",
-    "email": "mitchellivin@gmail.com"
+    "email": "jainamtgandhi@gmail.com"
   },
   "socials": [
     {
@@ -68,7 +68,7 @@
       "key": "linkedin",
       "name": "LinkedIn",
       "icon": "assets/gui/start-menu/linkedin.webp",
-      "url": "https://www.linkedin.com/in/jainamgandhi/",
+      "url": "https://www.linkedin.com/in/jainamtgandhi/",
       "showInAbout": true
     }
   ]
