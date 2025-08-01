@@ -82,14 +82,14 @@
   },
   {
     "type": "image",
-    "src": "assets/apps/projects/mitchivinxp/image1.webp",
+    "src": "assets/apps/projects/jainamxp/image1.webp",
     "images": [
-      "assets/apps/projects/mitchivinxp/image1.webp",
-      "assets/apps/projects/mitchivinxp/image2.webp",
-      "assets/apps/projects/mitchivinxp/image3.webp",
-      "assets/apps/projects/mitchivinxp/image4.webp",
-      "assets/apps/projects/mitchivinxp/image5.webp",
-      "assets/apps/projects/mitchivinxp/image6.webp"
+      "assets/apps/projects/jainamxp/image1.webp",
+      "assets/apps/projects/jainamxp/image2.webp",
+      "assets/apps/projects/jainamxp/image3.webp",
+      "assets/apps/projects/jainamxp/image4.webp",
+      "assets/apps/projects/jainamxp/image5.webp",
+      "assets/apps/projects/jainamxp/image6.webp"
     ],
     "title": "Jainam XP",
     "subtitle": "A fully interactive Windows XP simulation reimagined as a design portfolio experience.",
