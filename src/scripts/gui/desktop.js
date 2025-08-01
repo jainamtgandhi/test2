@@ -3,11 +3,21 @@ console.log('setupIconEvents called');
 console.log('Socials data:', this['socials']);
 const icons = this[_0x2f6b83(0xdc)]();
 console.log('Found desktop icons:', icons.length);
+
+// Test if desktop area is clickable
+this['desktop']['addEventListener']('click', (e) => {
+  console.log('Desktop area clicked at:', e.clientX, e.clientY);
+});
+
 icons[_0x2f6b83(0xb1)](_0x1f581f=>{const _0x33f093=_0x2f6b83;
   console.log('Setting up event listener for icon:', _0x1f581f);
+  console.log('Icon element:', _0x1f581f.tagName, _0x1f581f.className);
+  console.log('Icon data-program-name:', _0x1f581f.getAttribute('data-program-name'));
+  
   if('A'===_0x1f581f[_0x33f093(0xd4)])return;
   const _0x8fb0cb=_0x1f581f[_0x33f093(0xdb)](_0x33f093(0xf7)),_0x18dfcb=_0x8fb0cb?_0x8fb0cb['textContent'][_0x33f093(0xe3)]()['toLowerCase']()['replace'](/\s+/g,'-'):'',_0x21ef54=_0x507a5d=>{const _0x41c516=_0x33f093;
     console.log('CLICK DETECTED on desktop icon!');
+    console.log('Click event details:', _0x507a5d.type, _0x507a5d.target);
     _0x507a5d[_0x41c516(0xf9)]();
     if(_0x2718e0&&'click'===_0x507a5d[_0x41c516(0xc4)])return;
     const _0x345fe7=Date[_0x41c516(0xf5)]();
