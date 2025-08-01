@@ -20,17 +20,27 @@ if (firstIcon) {
 
 icons[_0x2f6b83(0xb1)](_0x1f581f=>{const _0x33f093=_0x2f6b83;
   console.log('Setting up click handler for:', _0x1f581f.getAttribute('data-program-name'));
-  
+
   if('A'===_0x1f581f[_0x33f093(0xd4)])return;
-  const _0x8fb0cb=_0x1f581f[_0x33f093(0xdb)](_0x33f093(0xf7)),_0x18dfcb=_0x8fb0cb?_0x8fb0cb['textContent'][_0x33f093(0xe3)]()['toLowerCase']()['replace'](/\s+/g,'-'):'',_0x21ef54=_0x507a5d=>{const _0x41c516=_0x33f093;
+  
+  const _0x8fb0cb=_0x1f581f[_0x33f093(0xdb)](_0x33f093(0xf7));
+  const _0x18dfcb=_0x8fb0cb?_0x8fb0cb['textContent'][_0x33f093(0xe3)]()['toLowerCase']()['replace'](/\s+/g,'-'):'';
+  
+  // Simple working click handler
+  const _0x21ef54=_0x507a5d=>{
     console.log('CLICK DETECTED on desktop icon:', _0x1f581f.getAttribute('data-program-name'));
+    
     _0x507a5d[_0x41c516(0xf9)]();
     if(_0x2718e0&&'click'===_0x507a5d[_0x41c516(0xc4)])return;
+    
     const _0x345fe7=Date[_0x41c516(0xf5)]();
     let _0x42bb07=_0x1f581f[_0x41c516(0xcb)](_0x41c516(0xb2));
     console.log('Program name:', _0x42bb07);
+    
     if(_0x345fe7-(this['lastClickTimes'][_0x18dfcb]||0x0)<0x190){
       _0x1f581f[_0x41c516(0xf4)]['contains']('selected')||this[_0x41c516(0xe0)](_0x1f581f,!0x0);
+      
+      // Check if it's a social link
       if(_0x46da5b[_0x42bb07]){
         console.log('Opening social link:', _0x46da5b[_0x42bb07]['url']);
         window['open'](_0x46da5b[_0x42bb07]['url'],_0x41c516(0xe2));
