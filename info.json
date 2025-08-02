@@ -40,8 +40,8 @@
     "softwareIcons": [
       "/assets/gui/start-menu/vanity-apps/ga4.webp",
       "/assets/gui/start-menu/vanity-apps/hubspot.webp",
-      "/assets/gui/start-menu/vanity-apps/semrush.webp",
-      "/assets/gui/start-menu/vanity-apps/office.webp",
+      "/assets/gui/start-menu/vanity-apps/semrush.png",
+      "/assets/gui/start-menu/vanity-apps/office.png",
       "/assets/gui/start-menu/vanity-apps/hootsuite.webp"
     ]
   },
@@ -60,14 +60,14 @@
     {
       "key": "medium",
       "name": "Medium",
-      "icon": "assets/gui/start-menu/github.webp",
+      "icon": "assets/gui/start-menu/medium.svg",
       "url": "https://medium.com/@jainamtgandhi",
       "showInAbout": true
     },
     {
       "key": "linkedin",
       "name": "LinkedIn",
-      "icon": "assets/gui/start-menu/linkedin.webp",
+      "icon": "assets/gui/start-menu/linkedin.png",
       "url": "https://www.linkedin.com/in/jainamtgandhi/",
       "showInAbout": true
     }
