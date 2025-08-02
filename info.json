@@ -54,14 +54,14 @@
       "key": "instagram",
       "name": "Instagram",
       "icon": "assets/gui/start-menu/instagram.webp",
-      "url": "https://www.instagram.com/jainamgandhi",
+      "url": "http://instagram.com/jainamtgandhi",
       "showInAbout": true
     },
     {
-      "key": "github",
-      "name": "Github",
+      "key": "medium",
+      "name": "Medium",
       "icon": "assets/gui/start-menu/github.webp",
-      "url": "https://github.com/jainamgandhi",
+      "url": "https://medium.com/@jainamtgandhi",
       "showInAbout": true
     },
     {
