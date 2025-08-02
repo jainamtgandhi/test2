@@ -29,3 +29,18 @@
   .all-programs-item:hover::before,.recently-used-item:hover::before{width:36px}
   .mut-menu-arrow{right:10px;font-size:12px}
 }.menu-items .menu-divider .divider{width:100%;margin-left:0;margin-right:0;display:block}.divider-darkblue .divider{background:linear-gradient(to right,transparent 0,#a1c4fc 50%,transparent 100%)}.startmenu .menu-item.disabled{opacity:.9!important;pointer-events:none!important;filter:grayscale(.5)!important}.startmenu .menu-item.disabled,.startmenu .menu-item.disabled:active,.startmenu .menu-item.disabled:hover{background-color:transparent!important;box-shadow:none!important}.startmenu .menu-item.disabled .item-description,.startmenu .menu-item.disabled .item-title{color:#666!important;text-shadow:none!important}.startmenu .menu-item.disabled img{filter:grayscale(.5) opacity(.9)!important}.menu-item.menu-item-clicked{background-color:#1e5fa9;color:#fff;box-shadow:inset 1px 1px 3px rgba(0,0,0,.3)}.projects-bold{font-weight:400}
+
+/* Increased opacity for specific menu items */
+.startmenu .menu-item[data-program-name="my-pictures"],
+.startmenu .menu-item[data-program-name="mediaPlayer"],
+.startmenu .menu-item[data-program-name="notepad"],
+.startmenu .menu-item[data-program-name="cmd"] {
+  opacity: 0.85 !important;
+}
+
+.startmenu .menu-item[data-program-name="my-pictures"] img,
+.startmenu .menu-item[data-program-name="mediaPlayer"] img,
+.startmenu .menu-item[data-program-name="notepad"] img,
+.startmenu .menu-item[data-program-name="cmd"] img {
+  opacity: 0.85 !important;
+}
