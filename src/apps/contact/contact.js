@@ -1,1 +1,145 @@
-const _0x293c24=_0x4699;(function(_0x533f1c,_0x592c8e){const _0x43842a=_0x4699,_0x3af5ee=_0x533f1c();while(!![]){try{const _0x7df662=parseInt(_0x43842a(0xbc))/0x1+parseInt(_0x43842a(0xc9))/0x2*(-parseInt(_0x43842a(0xe1))/0x3)+-parseInt(_0x43842a(0xc4))/0x4+-parseInt(_0x43842a(0xcc))/0x5*(-parseInt(_0x43842a(0xd8))/0x6)+parseInt(_0x43842a(0xd1))/0x7+parseInt(_0x43842a(0xc5))/0x8+parseInt(_0x43842a(0xe2))/0x9*(-parseInt(_0x43842a(0xc3))/0xa);if(_0x7df662===_0x592c8e)break;else _0x3af5ee['push'](_0x3af5ee['shift']());}catch(_0x54dad7){_0x3af5ee['push'](_0x3af5ee['shift']());}}}(_0x1e3d,0xd6f66));const fromInput=document[_0x293c24(0xcd)]('contact-from'),subjectInput=document['getElementById']('contact-subject'),messageTextarea=document['getElementById']('contact-message');let moduleContactName=_0x293c24(0xda),moduleContactEmail='jainamtgandhi@gmail.com';function getFormData(){const _0x512748=_0x293c24;return{'to':'\x22'+moduleContactName+_0x512748(0xd4)+moduleContactEmail+'>','from':fromInput?fromInput[_0x512748(0xc6)]:'','subject':subjectInput?subjectInput[_0x512748(0xc6)]:'','message':messageTextarea?messageTextarea['value']:''};}function _0x1e3d(){const _0x1cf33c=['CgfYzw50','m1f5AhDeta','otuYmty2n0jzqLHgEG','y29TBwfUza','DhjPBq','y2XLyxjdB250ywn0rM9YBq','Dg9VBgjHCI1Hy3rPB24','mtm1ndC4nLzTAgDuDG','y29UDgfJDc10BW','z2v0vgLTzq','ywn0Aw9U','yM9KEq','BgvUz3rO','Dg91y2HLCW','mJbuEgviAeO','mtGYodaYmfPruKDXta','odKWnti4mfz3ugXqtq','DMfSDwu','B2jQzwn0','BwvZC2fNzq','otC1nZK0tfv5ALbX','DhLWzq','zgf0yq','mZy2mZbdsfPnA2S','z2v0rwXLBwvUDej5swq','z2vZDhvYzwvUza','re9nq29UDgvUDeXVywrLza','y29UDgfJDezVCM1eyxrHuMvZCg9UC2u','mJy3mJu1oenNuKHjwG','zw1HAwW','y3rYBeTLEq','iIa8','z2v0rM9YBurHDge','y2XPy2S','zxjYB3i','odK0Ae5qsK5r','y29UDgfJDa','twL0y2GGsxzPBG','ChjLDMvUDerLzMf1Bhq','rMfPBgvKihrVigXVywqGAw5MBY5QC29U','ywrKrxzLBNrmAxn0zw5LCG','Cg9ZDe1LC3nHz2u','BMfTzq'];_0x1e3d=function(){return _0x1cf33c;};return _0x1e3d();}function _0x4699(_0x274963,_0x149be8){const _0x1e3d07=_0x1e3d();return _0x4699=function(_0x4699bf,_0x133f9d){_0x4699bf=_0x4699bf-0xbc;let _0x4fe12b=_0x1e3d07[_0x4699bf];if(_0x4699['FZsLGK']===undefined){var _0x558190=function(_0x4ea089){const _0x1e53f1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2ee11b='',_0x4b87ed='';for(let _0x415272=0x0,_0x290d8a,_0x22259c,_0x51bcf6=0x0;_0x22259c=_0x4ea089['charAt'](_0x51bcf6++);~_0x22259c&&(_0x290d8a=_0x415272%0x4?_0x290d8a*0x40+_0x22259c:_0x22259c,_0x415272++%0x4)?_0x2ee11b+=String['fromCharCode'](0xff&_0x290d8a>>(-0x2*_0x415272&0x6)):0x0){_0x22259c=_0x1e53f1['indexOf'](_0x22259c);}for(let _0x933345=0x0,_0x319d10=_0x2ee11b['length'];_0x933345<_0x319d10;_0x933345++){_0x4b87ed+='%'+('00'+_0x2ee11b['charCodeAt'](_0x933345)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4b87ed);};_0x4699['jmTwvD']=_0x558190,_0x274963=arguments,_0x4699['FZsLGK']=!![];}const _0x1422c4=_0x1e3d07[0x0],_0x146830=_0x4699bf+_0x1422c4,_0x4de688=_0x274963[_0x146830];return!_0x4de688?(_0x4fe12b=_0x4699['jmTwvD'](_0x4fe12b),_0x274963[_0x146830]=_0x4fe12b):_0x4fe12b=_0x4de688,_0x4fe12b;},_0x4699(_0x274963,_0x149be8);}function sendMessage(){const _0x5d480c=_0x293c24;window[_0x5d480c(0xe0)]&&window[_0x5d480c(0xe0)]!==window&&window[_0x5d480c(0xe0)]['postMessage']({'type':'contactFormDataResponse','data':getFormData()},'*');}function notifyParentIframeInteraction(){const _0x4d9833=_0x293c24;window[_0x4d9833(0xe0)]&&window['parent']!==window&&window['parent'][_0x4d9833(0xde)]({'type':'iframe-interaction','windowId':window[_0x4d9833(0xdf)]},'*');}document['addEventListener'](_0x293c24(0xcf),async()=>{const _0x5f1cc8=_0x293c24;let _0x4ea089=null;try{const _0x4b87ed=await fetch('../../../info.json');_0x4ea089=await _0x4b87ed['json']();}catch(_0x415272){console[_0x5f1cc8(0xd7)](_0x5f1cc8(0xdc),_0x415272);}_0x4ea089&&_0x4ea089['contact']&&(moduleContactName=_0x4ea089['contact'][_0x5f1cc8(0xdf)]||moduleContactName,moduleContactEmail=_0x4ea089[_0x5f1cc8(0xd9)][_0x5f1cc8(0xd2)]||moduleContactEmail);const _0x1e53f1=document['getElementById'](_0x5f1cc8(0xbd));function _0x2ee11b(){fromInput&&(fromInput['value']=''),subjectInput&&(subjectInput['value']=''),messageTextarea&&(messageTextarea['value']=''),notifyFormState();}_0x1e53f1&&(_0x1e53f1[_0x5f1cc8(0xc6)]=moduleContactName+'\x20<'+moduleContactEmail+'>'),window[_0x5f1cc8(0xdd)](_0x5f1cc8(0xc8),_0x290d8a=>{const _0x10866c=_0x5f1cc8;if(_0x290d8a[_0x10866c(0xcb)]&&_0x10866c(0xc7)==typeof _0x290d8a['data']){if(_0x10866c(0xd5)===_0x290d8a['data'][_0x10866c(0xe3)]||'getContactFormData'===_0x290d8a['data'][_0x10866c(0xca)])return void(window[_0x10866c(0xe0)]&&window[_0x10866c(0xe0)]!==window&&window[_0x10866c(0xe0)]['postMessage']({'type':_0x10866c(0xd0),'data':getFormData(),'sourceWindowId':_0x290d8a['data']['sourceWindowId']},'*'));if('newMessage'===_0x290d8a['data']['command'])_0x2ee11b();_0x10866c(0xe5)===_0x290d8a['data'][_0x10866c(0xca)]&&_0x2ee11b();}_0x290d8a['data']&&_0x10866c(0xe6)===_0x290d8a[_0x10866c(0xcb)]['type']&&('newMessage'===_0x290d8a[_0x10866c(0xcb)]['action']?_0x2ee11b():'sendMessage'===_0x290d8a[_0x10866c(0xcb)][_0x10866c(0xbf)]&&sendMessage());});}),document['addEventListener'](_0x293c24(0xd6),notifyParentIframeInteraction,!0x0),['gesturestart','gesturechange',_0x293c24(0xce)]['forEach'](_0x22259c=>{const _0x1ed331=_0x293c24;document[_0x1ed331(0xdd)](_0x22259c,_0x51bcf6=>_0x51bcf6['preventDefault'](),{'passive':!0x1});}),document[_0x293c24(0xdd)]('touchstart',_0x933345=>{const _0x566cf7=_0x293c24;_0x933345['touches'][_0x566cf7(0xc1)]>0x1&&_0x933345[_0x566cf7(0xdb)]();},{'passive':!0x1}),document[_0x293c24(0xdd)]('touchmove',_0x319d10=>{const _0x13b708=_0x293c24;_0x319d10[_0x13b708(0xc2)][_0x13b708(0xc1)]>0x1&&_0x319d10['preventDefault']();},{'passive':!0x1});let lastTouchEnd=0x0;function notifyFormState(){const _0x3c6f08=_0x293c24,_0x3813b6=fromInput&&fromInput[_0x3c6f08(0xc6)][_0x3c6f08(0xe4)]()||subjectInput&&subjectInput['value']['trim']()||messageTextarea&&messageTextarea['value'][_0x3c6f08(0xe4)]();window['parent']&&window[_0x3c6f08(0xe0)]!==window&&window[_0x3c6f08(0xe0)][_0x3c6f08(0xde)]({'type':'contactFormState','hasValue':!!_0x3813b6,'windowId':window[_0x3c6f08(0xdf)]},'*');}document[_0x293c24(0xdd)]('touchend',_0x38a72f=>{const _0x34b4e6=_0x293c24,_0x4531fe=new Date()[_0x34b4e6(0xbe)]();_0x4531fe-lastTouchEnd<=0x12c&&_0x38a72f[_0x34b4e6(0xdb)](),lastTouchEnd=_0x4531fe;},{'passive':!0x1}),document['addEventListener']('wheel',_0x14a21c=>{const _0x394e9b=_0x293c24;(_0x14a21c[_0x394e9b(0xd3)]||_0x14a21c['target']===document[_0x394e9b(0xc0)]||_0x14a21c['target']===document['documentElement'])&&_0x14a21c[_0x394e9b(0xdb)]();},{'passive':!0x1}),[fromInput,subjectInput,messageTextarea]['forEach'](_0x48f6ae=>{_0x48f6ae&&_0x48f6ae['addEventListener']('input',notifyFormState);}),window['addEventListener']('DOMContentLoaded',notifyFormState);
+// Contact form functionality
+const contactForm = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
+const fromInput = document.getElementById('contact-from');
+const subjectInput = document.getElementById('contact-subject');
+const messageTextarea = document.getElementById('contact-message');
+
+// Load contact info from info.json
+async function loadContactInfo() {
+    try {
+        const response = await fetch('../../../info.json');
+        const data = await response.json();
+        
+        if (data.contact) {
+            const contactTo = document.getElementById('contact-to');
+            if (contactTo) {
+                contactTo.value = `${data.contact.name} <${data.contact.email}>`;
+            }
+        }
+    } catch (error) {
+        console.error('Error loading contact info:', error);
+    }
+}
+
+// Handle form submission
+contactForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+    const originalText = submitButton.textContent;
+    
+    // Show loading state
+    submitButton.textContent = 'Sending...';
+    submitButton.disabled = true;
+    
+    try {
+        const formData = new FormData(contactForm);
+        
+        const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+        
+        if (response.ok) {
+            showStatus('Message sent successfully! I\'ll get back to you soon.', 'success');
+            contactForm.reset();
+        } else {
+            showStatus('Sorry, there was an error sending your message. Please try again.', 'error');
+        }
+    } catch (error) {
+        console.error('Form submission error:', error);
+        showStatus('Sorry, there was an error sending your message. Please try again.', 'error');
+    } finally {
+        submitButton.textContent = originalText;
+        submitButton.disabled = false;
+    }
+});
+
+// Show status message
+function showStatus(message, type) {
+    formStatus.textContent = message;
+    formStatus.className = `status-message ${type}`;
+    formStatus.style.display = 'block';
+    
+    // Hide after 5 seconds
+    setTimeout(() => {
+        formStatus.style.display = 'none';
+    }, 5000);
+}
+
+// Notify parent window of form state changes
+function notifyFormState() {
+    const hasValue = fromInput.value.trim() || 
+                    subjectInput.value.trim() || 
+                    messageTextarea.value.trim();
+    
+    if (window.parent && window.parent !== window) {
+        window.parent.postMessage({
+            type: 'contactFormState',
+            hasValue: !!hasValue,
+            windowId: window.name
+        }, '*');
+    }
+}
+
+// Add input event listeners
+[fromInput, subjectInput, messageTextarea].forEach(input => {
+    if (input) {
+        input.addEventListener('input', notifyFormState);
+    }
+});
+
+// Initialize
+document.addEventListener('DOMContentLoaded', function() {
+    loadContactInfo();
+    notifyFormState();
+});
+
+// Handle parent window messages
+window.addEventListener('message', function(event) {
+    if (event.data && typeof event.data === 'object') {
+        if (event.data.command === 'newMessage' || event.data.action === 'newMessage') {
+            contactForm.reset();
+            notifyFormState();
+        }
+    }
+});
+
+// Prevent zoom on mobile
+document.addEventListener('gesturestart', e => e.preventDefault(), { passive: false });
+document.addEventListener('gesturechange', e => e.preventDefault(), { passive: false });
+document.addEventListener('gestureend', e => e.preventDefault(), { passive: false });
+
+// Prevent double tap zoom
+let lastTouchEnd = 0;
+document.addEventListener('touchend', function(event) {
+    const now = (new Date()).getTime();
+    if (now - lastTouchEnd <= 300) {
+        event.preventDefault();
+    }
+    lastTouchEnd = now;
+}, { passive: false });
+
+// Prevent multi-touch zoom
+document.addEventListener('touchstart', function(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
+document.addEventListener('touchmove', function(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
+// Prevent scroll zoom
+document.addEventListener('wheel', function(event) {
+    if (event.ctrlKey || event.target === document.body || event.target === document.documentElement) {
+        event.preventDefault();
+    }
+}, { passive: false });
