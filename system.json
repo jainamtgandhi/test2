@@ -1,6 +1,6 @@
 {
   "loading": "assets/gui/boot/loading.png",
-  "userIcon": "assets/gui/boot/userlogin.webp",
+  "userIcon": "assets/gui/boot/userlogin.jpg",
   "wallpaperDesktop": "assets/gui/bgs/bliss.webp",
   "wallpaperMobile": "assets/gui/bgs/blissMobile.webp",
   "balloon": {
