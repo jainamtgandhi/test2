@@ -2,30 +2,30 @@
 
 /* Desktop-specific styles - 10% larger */
 @media (min-width:769px){
-  .startmenu{width:368px;height:500px}
-  .menutopbar{height:56px;flex:0 0 56px}
-  .userpicture{width:44px;height:44px;margin:8px 9px 9px}
-  .username{font-size:15px}
-  .menu-item{padding:7px 9px}
-  .middle-left .menu-item{padding:4px 9px}
-  .middle-right .menu-item{height:38px;min-height:38px;max-height:38px;padding:9px 8px 9px 10px}
-  .middle-right .menu-item img{width:28px;height:28px;margin-right:8px;margin-left:1px}
-  .middle-right .menu-item .item-title{font-size:13px}
-  .middle-left .menu-item img{width:33px;height:33px;margin-right:8px}
-  .item-title{font-size:13px}
-  .item-description{font-size:10px}
-  .all-programs-container{flex:0 0 38px}
-  .all-programs-button{height:38px;font-size:13px}
-  .all-programs-button span{margin-right:11px;line-height:20px}
-  .all-programs-button img{width:20px;height:20px}
-  .start-menu-footer{flex:0 0 51px;height:51px}
-  .footer-button{height:33px;font-size:14px}
-  .footer-button span{padding:0 7px}
-  .footer-button img{width:26px;height:26px}
-  .all-programs-menu,.recently-used-menu{width:198px;min-width:187px}
-  .all-programs-item,.recently-used-item{padding:3px 9px 3px 33px;font-size:12px;min-height:22px}
-  .all-programs-item img,.recently-used-item img{width:18px;height:18px;left:9px}
-  .all-programs-item:hover,.recently-used-item:hover{padding-left:33px}
-  .all-programs-item:hover::before,.recently-used-item:hover::before{width:33px}
-  .mut-menu-arrow{right:9px;font-size:11px}
+  .startmenu{width:405px;height:550px}
+  .menutopbar{height:62px;flex:0 0 62px}
+  .userpicture{width:48px;height:48px;margin:9px 10px 10px}
+  .username{font-size:16.5px}
+  .menu-item{padding:8px 10px}
+  .middle-left .menu-item{padding:4px 10px}
+  .middle-right .menu-item{height:42px;min-height:42px;max-height:42px;padding:10px 9px 10px 11px}
+  .middle-right .menu-item img{width:31px;height:31px;margin-right:9px;margin-left:1px}
+  .middle-right .menu-item .item-title{font-size:14px}
+  .middle-left .menu-item img{width:36px;height:36px;margin-right:9px}
+  .item-title{font-size:14px}
+  .item-description{font-size:11px}
+  .all-programs-container{flex:0 0 42px}
+  .all-programs-button{height:42px;font-size:14px}
+  .all-programs-button span{margin-right:12px;line-height:22px}
+  .all-programs-button img{width:22px;height:22px}
+  .start-menu-footer{flex:0 0 56px;height:56px}
+  .footer-button{height:36px;font-size:15px}
+  .footer-button span{padding:0 8px}
+  .footer-button img{width:29px;height:29px}
+  .all-programs-menu,.recently-used-menu{width:218px;min-width:206px}
+  .all-programs-item,.recently-used-item{padding:3px 10px 3px 36px;font-size:13px;min-height:24px}
+  .all-programs-item img,.recently-used-item img{width:20px;height:20px;left:10px}
+  .all-programs-item:hover,.recently-used-item:hover{padding-left:36px}
+  .all-programs-item:hover::before,.recently-used-item:hover::before{width:36px}
+  .mut-menu-arrow{right:10px;font-size:12px}
 }.menu-items .menu-divider .divider{width:100%;margin-left:0;margin-right:0;display:block}.divider-darkblue .divider{background:linear-gradient(to right,transparent 0,#a1c4fc 50%,transparent 100%)}.startmenu .menu-item.disabled{opacity:.6!important;pointer-events:none!important;filter:grayscale(.8)!important}.startmenu .menu-item.disabled,.startmenu .menu-item.disabled:active,.startmenu .menu-item.disabled:hover{background-color:transparent!important;box-shadow:none!important}.startmenu .menu-item.disabled .item-description,.startmenu .menu-item.disabled .item-title{color:#888!important;text-shadow:none!important}.startmenu .menu-item.disabled img{filter:grayscale(.8) opacity(.6)!important}.menu-item.menu-item-clicked{background-color:#1e5fa9;color:#fff;box-shadow:inset 1px 1px 3px rgba(0,0,0,.3)}.projects-bold{font-weight:700}
