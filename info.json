@@ -7,6 +7,122 @@
     "webp": "/assets/apps/personas-placeholder/personas-placeholder.webp",
     "pdf": "/assets/apps/personas-placeholder/personas-placeholder.pdf"
   },
+  "survey-data-placeholder": {
+    "webp": "/assets/apps/survey-data-placeholder/survey-data-placeholder.webp",
+    "pdf": "/assets/apps/survey-data-placeholder/survey-data-placeholder.pdf"
+  },
+  "interview-notes-placeholder": {
+    "webp": "/assets/apps/interview-notes-placeholder/interview-notes-placeholder.webp",
+    "pdf": "/assets/apps/interview-notes-placeholder/interview-notes-placeholder.pdf"
+  },
+  "research-reports-placeholder": {
+    "webp": "/assets/apps/research-reports-placeholder/research-reports-placeholder.webp",
+    "pdf": "/assets/apps/research-reports-placeholder/research-reports-placeholder.pdf"
+  },
+  "competitive-analysis-placeholder": {
+    "webp": "/assets/apps/competitive-analysis-placeholder/competitive-analysis-placeholder.webp",
+    "pdf": "/assets/apps/competitive-analysis-placeholder/competitive-analysis-placeholder.pdf"
+  },
+  "tam-sam-som-placeholder": {
+    "webp": "/assets/apps/tam-sam-som-placeholder/tam-sam-som-placeholder.webp",
+    "pdf": "/assets/apps/tam-sam-som-placeholder/tam-sam-som-placeholder.pdf"
+  },
+  "market-trends-placeholder": {
+    "webp": "/assets/apps/market-trends-placeholder/market-trends-placeholder.webp",
+    "pdf": "/assets/apps/market-trends-placeholder/market-trends-placeholder.pdf"
+  },
+  "industry-reports-placeholder": {
+    "webp": "/assets/apps/industry-reports-placeholder/industry-reports-placeholder.webp",
+    "pdf": "/assets/apps/industry-reports-placeholder/industry-reports-placeholder.pdf"
+  },
+  "market-sizing-placeholder": {
+    "webp": "/assets/apps/market-sizing-placeholder/market-sizing-placeholder.webp",
+    "pdf": "/assets/apps/market-sizing-placeholder/market-sizing-placeholder.pdf"
+  },
+  "messaging-frameworks-placeholder": {
+    "webp": "/assets/apps/messaging-frameworks-placeholder/messaging-frameworks-placeholder.webp",
+    "pdf": "/assets/apps/messaging-frameworks-placeholder/messaging-frameworks-placeholder.pdf"
+  },
+  "copy-guides-placeholder": {
+    "webp": "/assets/apps/copy-guides-placeholder/copy-guides-placeholder.webp",
+    "pdf": "/assets/apps/copy-guides-placeholder/copy-guides-placeholder.pdf"
+  },
+  "value-props-placeholder": {
+    "webp": "/assets/apps/value-props-placeholder/value-props-placeholder.webp",
+    "pdf": "/assets/apps/value-props-placeholder/value-props-placeholder.pdf"
+  },
+  "brand-guidelines-placeholder": {
+    "webp": "/assets/apps/brand-guidelines-placeholder/brand-guidelines-placeholder.webp",
+    "pdf": "/assets/apps/brand-guidelines-placeholder/brand-guidelines-placeholder.pdf"
+  },
+  "tone-voice-placeholder": {
+    "webp": "/assets/apps/tone-voice-placeholder/tone-voice-placeholder.webp",
+    "pdf": "/assets/apps/tone-voice-placeholder/tone-voice-placeholder.pdf"
+  },
+  "messaging-tests-placeholder": {
+    "webp": "/assets/apps/messaging-tests-placeholder/messaging-tests-placeholder.webp",
+    "pdf": "/assets/apps/messaging-tests-placeholder/messaging-tests-placeholder.pdf"
+  },
+  "launch-plans-placeholder": {
+    "webp": "/assets/apps/launch-plans-placeholder/launch-plans-placeholder.webp",
+    "pdf": "/assets/apps/launch-plans-placeholder/launch-plans-placeholder.pdf"
+  },
+  "campaign-timelines-placeholder": {
+    "webp": "/assets/apps/campaign-timelines-placeholder/campaign-timelines-placeholder.webp",
+    "pdf": "/assets/apps/campaign-timelines-placeholder/campaign-timelines-placeholder.pdf"
+  },
+  "channel-strategy-placeholder": {
+    "webp": "/assets/apps/channel-strategy-placeholder/channel-strategy-placeholder.webp",
+    "pdf": "/assets/apps/channel-strategy-placeholder/channel-strategy-placeholder.pdf"
+  },
+  "go-to-market-placeholder": {
+    "webp": "/assets/apps/go-to-market-placeholder/go-to-market-placeholder.webp",
+    "pdf": "/assets/apps/go-to-market-placeholder/go-to-market-placeholder.pdf"
+  },
+  "one-pagers-placeholder": {
+    "webp": "/assets/apps/one-pagers-placeholder/one-pagers-placeholder.webp",
+    "pdf": "/assets/apps/one-pagers-placeholder/one-pagers-placeholder.pdf"
+  },
+  "battlecards-placeholder": {
+    "webp": "/assets/apps/battlecards-placeholder/battlecards-placeholder.webp",
+    "pdf": "/assets/apps/battlecards-placeholder/battlecards-placeholder.pdf"
+  },
+  "email-templates-placeholder": {
+    "webp": "/assets/apps/email-templates-placeholder/email-templates-placeholder.webp",
+    "pdf": "/assets/apps/email-templates-placeholder/email-templates-placeholder.pdf"
+  },
+  "sales-decks-placeholder": {
+    "webp": "/assets/apps/sales-decks-placeholder/sales-decks-placeholder.webp",
+    "pdf": "/assets/apps/sales-decks-placeholder/sales-decks-placeholder.pdf"
+  },
+  "case-studies-placeholder": {
+    "webp": "/assets/apps/case-studies-placeholder/case-studies-placeholder.webp",
+    "pdf": "/assets/apps/case-studies-placeholder/case-studies-placeholder.pdf"
+  },
+  "seo-placeholder": {
+    "webp": "/assets/apps/seo-placeholder/seo-placeholder.webp",
+    "pdf": "/assets/apps/seo-placeholder/seo-placeholder.pdf"
+  },
+  "content-marketing-placeholder": {
+    "webp": "/assets/apps/content-marketing-placeholder/content-marketing-placeholder.webp",
+    "pdf": "/assets/apps/content-marketing-placeholder/content-marketing-placeholder.pdf"
+  },
+  "paid-ads-placeholder": {
+    "webp": "/assets/apps/paid-ads-placeholder/paid-ads-placeholder.webp",
+    "pdf": "/assets/apps/paid-ads-placeholder/paid-ads-placeholder.pdf"
+  },
+  "email-campaigns-placeholder": {
+    "webp": "/assets/apps/email-campaigns-placeholder/email-campaigns-placeholder.webp",
+    "pdf": "/assets/apps/email-campaigns-placeholder/email-campaigns-placeholder.pdf"
+  },
+  "social-media-placeholder": {
+    "webp": "/assets/apps/social-media-placeholder/social-media-placeholder.webp",
+    "pdf": "/assets/apps/social-media-placeholder/social-media-placeholder.pdf"
+  },
+  "analytics-placeholder": {
+    "webp": "/assets/apps/analytics-placeholder/analytics-placeholder.webp",
+    "pdf": "/assets/apps/analytics-placeholder/analytics-placeholder.pdf"
+  },
   "about": {
     "paragraphs": [
       "I'm Jainam, a marketing strategist based in the United States. I work at the intersection of data-driven insights and creative storytelling, shaped by a passion for understanding consumer behavior and driving business growth. My approach combines analytical thinking with strategic creativity to deliver impactful marketing solutions.",
