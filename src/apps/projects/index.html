@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="../../styles/XP.css" />
+  <style>
+    body {
+      display: flex;
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      background: #ffffff;
+    }
+    .sidebar {
+      width: 200px;
+      background: #f0f0f0;
+      padding: 10px;
+      border-right: 1px solid #ccc;
+    }
+    .main {
+      flex: 1;
+      padding: 10px;
+    }
+    .breadcrumb {
+      font-size: 12px;
+      margin-bottom: 15px;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .breadcrumb img {
+      height: 14px;
+      margin: 0 4px;
+    }
+    .folder-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .folder {
+      width: 90px;
+      text-align: center;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 3px;
+    }
+    .folder:hover {
+      background-color: #cce5ff;
+      border: 1px solid #6699ff;
+    }
+    .folder img {
+      width: 48px;
+      height: 48px;
+    }
+    .folder span {
+      display: block;
+      margin-top: 5px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h4>Other Places</h4>
+    <ul>
+      <li>My Documents</li>
+      <li>Shared Documents</li>
+      <li>My Computer</li>
+      <li>My Network Places</li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="breadcrumb">
+      <img src="../../assets/gui/desktop/my-computer.png" alt="My Computer" />
+      My Computer
+      <img src="../../assets/gui/toolbar/arrow.png" alt=">"/>
+      My Documents
+      <img src="../../assets/gui/toolbar/arrow.png" alt=">"/>
+      My Projects
+    </div>
+    <div class="folder-grid">
+      <div class="folder" id="research">
+        <img src="../../assets/icons/stats.png" alt="Research Icon">
+        <span>Customer Research</span>
+      </div>
+      <div class="folder" id="market">
+        <img src="../../assets/icons/globe.png" alt="Market Icon">
+        <span>Market Research</span>
+      </div>
+      <div class="folder" id="positioning">
+        <img src="../../assets/icons/speech.png" alt="Positioning Icon">
+        <span>Positioning & Msg</span>
+      </div>
+      <div class="folder" id="gtm">
+        <img src="../../assets/icons/chart.png" alt="GTM Icon">
+        <span>GTM Strategy</span>
+      </div>
+      <div class="folder" id="sales">
+        <img src="../../assets/icons/crm.png" alt="Sales Icon">
+        <span>Sales Enablement</span>
+      </div>
+      <div class="folder" id="digital">
+        <img src="../../assets/icons/ad.png" alt="Digital Icon">
+        <span>Digital Marketing</span>
+      </div>
+    </div>
+  </div>
+  <script src="projects.js" type="module"></script>
+</body>
+</html>

@@ -1,58 +1,82 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Projects</title><link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.6/dist/XP.css" crossorigin="anonymous"><link rel="stylesheet" href="projects.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap" rel="stylesheet"></head><body><div class="scroll-content"><div class="feed-container"></div></div><script type="module" src="projects.js" defer="defer"></script><script>
-// Marketing category icons and colors
-const marketingIcons = {
-  'customer-research': { icon: '👥', color: '#6f7ab6' },
-  'market-research': { icon: '📊', color: '#7fb069' },
-  'positioning-messaging': { icon: '💬', color: '#9b6b9e' },
-  'gtm-strategy': { icon: '🚀', color: '#e6a157' },
-  'sales-enablement': { icon: '🎯', color: '#e67e8f' },
-  'digital-marketing': { icon: '📱', color: '#5a9bd4' }
-};
 
-// Function to create modern card structure
-function createMarketingCard(project) {
-  const card = document.createElement('div');
-  card.className = 'post';
-  
-  const categoryKey = project.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '-');
-  const iconData = marketingIcons[categoryKey] || { icon: '📋', color: '#6c757d' };
-  
-  card.innerHTML = `
-    <div class="post-content">
-      <div class="post-icon" style="background-color: ${iconData.color}">${iconData.icon}</div>
-      <div class="post-title">${project.title}</div>
-      <div class="post-description">${project.subtitle}</div>
-      <a href="#" class="post-link">View Case Study</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="../../styles/XP.css" />
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+  <div class="project-app-wrapper">
+    <h1 class="project-header">My Projects</h1>
+
+    <div class="project-section">
+      <h2>🚀 GTM Strategy</h2>
+      <p>Executed end-to-end launch planning with playbooks, channel mix strategy, and performance benchmarks. Informed launch sequencing and aligned cross-functional GTM teams.</p>
+      <ul>
+        <li>Built GTM calendar with owned, earned, and paid channels</li>
+        <li>Developed campaign assets for pre-launch and post-launch nurture</li>
+        <li>Coordinated with sales and customer success for rollout timing</li>
+      </ul>
+      <p><strong>Tools:</strong> Notion, Asana, Google Slides</p>
     </div>
-  `;
-  
-  return card;
-}
 
-// Override the default card creation
-window.addEventListener('DOMContentLoaded', () => {
-  const feedContainer = document.querySelector('.feed-container');
-  if (feedContainer) {
-    // Clear existing content
-    feedContainer.innerHTML = '';
-    
-    // Add marketing cards
-    const marketingProjects = [
-      { title: 'Customer Research', subtitle: 'Deep user insights that drive product decisions through interviews, surveys, and behavioral analysis' },
-      { title: 'Market Research', subtitle: 'Competitive intelligence and market trends that identify opportunities and inform strategy' },
-      { title: 'Positioning & Messaging', subtitle: 'Compelling brand stories and value propositions that resonate with target audiences' },
-      { title: 'GTM Strategy', subtitle: 'End-to-end product launch execution that drives adoption and revenue growth' },
-      { title: 'Sales Enablement', subtitle: 'Strategic assets and training that accelerate sales cycles and improve close rates' },
-      { title: 'Digital Marketing', subtitle: 'Multi-channel digital campaigns that drive engagement and conversions' }
-    ];
-    
-    marketingProjects.forEach(project => {
-      const card = createMarketingCard(project);
-      feedContainer.appendChild(card);
-    });
-    
-    // Add loaded class
-    feedContainer.classList.add('loaded');
-  }
-});
-</script></body></html>
+    <div class="project-section">
+      <h2>👥 Customer Research</h2>
+      <p>Led persona research using user interviews and behavioral data to guide product messaging and roadmap priorities.</p>
+      <ul>
+        <li>Interviewed 15+ users across 3 segments</li>
+        <li>Synthesized feedback into 4 personas and JTBD profiles</li>
+        <li>Mapped user journey to uncover churn risk moments</li>
+      </ul>
+      <p><strong>Tools:</strong> Hotjar, UserTesting, GA4</p>
+    </div>
+
+    <div class="project-section">
+      <h2>💬 Positioning & Messaging</h2>
+      <p>Crafted compelling messaging based on user pain points and product differentiation. Created message maps and aligned content with the buyer journey.</p>
+      <ul>
+        <li>Developed positioning frameworks</li>
+        <li>Ran message tests across ads and landing pages</li>
+        <li>Aligned internal teams on feature-benefit narratives</li>
+      </ul>
+      <p><strong>Tools:</strong> Figma, Typeform, Google Docs</p>
+    </div>
+
+    <div class="project-section">
+      <h2>🎯 Sales Enablement</h2>
+      <p>Equipped sales team with tailored assets to accelerate close rates and improve buyer confidence.</p>
+      <ul>
+        <li>Created battlecards and one-pagers</li>
+        <li>Built objection-handling scripts and demo flows</li>
+        <li>Held enablement sessions with feedback loops</li>
+      </ul>
+      <p><strong>Tools:</strong> Highspot, Notion, Canva</p>
+    </div>
+
+    <div class="project-section">
+      <h2>📊 Market Research</h2>
+      <p>Analyzed market size, trends, and competitor benchmarks to inform pricing and positioning.</p>
+      <ul>
+        <li>Created TAM/SAM/SOM breakdowns</li>
+        <li>Benchmarked competitors' feature sets</li>
+        <li>Studied keyword trends and buyer signals</li>
+      </ul>
+      <p><strong>Tools:</strong> SEMrush, Crunchbase, Statista</p>
+    </div>
+
+    <div class="project-section">
+      <h2>📱 Digital Marketing</h2>
+      <p>Launched and optimized cross-channel campaigns to increase acquisition and activation.</p>
+      <ul>
+        <li>Ran A/B tests on paid social creatives</li>
+        <li>Built retargeting funnels with UTM tracking</li>
+        <li>Optimized ad spend and conversion paths</li>
+      </ul>
+      <p><strong>Tools:</strong> Meta Ads, Mailchimp, Mixpanel</p>
+    </div>
+
+  </div>
+</body>
+</html>
