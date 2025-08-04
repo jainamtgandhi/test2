@@ -1,0 +1,63 @@
+{
+  "socials": [
+    {
+      "key": "instagram",
+      "name": "Instagram",
+      "icon": "assets/gui/start-menu/instagram.webp",
+      "url": "http://instagram.com/jainamtgandhi",
+      "showInAbout": true
+    },
+    {
+      "key": "medium",
+      "name": "Medium",
+      "icon": "assets/gui/start-menu/medium.svg",
+      "url": "https://medium.com/@jainamtgandhi",
+      "showInAbout": true
+    },
+    {
+      "key": "linkedin",
+      "name": "LinkedIn",
+      "icon": "assets/gui/start-menu/linkedin.png",
+      "url": "https://www.linkedin.com/in/jainamtgandhi/",
+      "showInAbout": true
+    }
+  ],
+  "about": {
+    "paragraphs": [
+      "Marketing professional with expertise in customer research, market analysis, and go-to-market strategies.",
+      "Specialized in digital marketing, content creation, and sales enablement across B2B and B2C markets.",
+      "Experienced in developing comprehensive marketing campaigns and driving measurable business results."
+    ],
+    "p1": "../../../assets/apps/about/skill1.webp",
+    "p2": "../../../assets/apps/about/skill2.webp",
+    "p3": "../../../assets/apps/about/skill3.webp",
+    "skills": [
+      "GTM Strategy",
+      "Product Launches",
+      "Messaging & Positioning",
+      "Customer Research and User/Buyer Personas",
+      "Competitive Intelligence"
+    ],
+    "skillsIcons": [
+      "assets/apps/about/skill1.webp",
+      "assets/apps/about/skill2.webp",
+      "assets/apps/about/skill3.webp",
+      "assets/apps/about/skill4.webp",
+      "assets/apps/about/skill5.webp"
+    ],
+    "software": [
+      "Google Analytics",
+      "HubSpot",
+      "Semrush",
+      "Office Suite",
+      "Hootsuite"
+    ],
+    "softwareIcons": [
+      "assets/gui/start-menu/vanity-apps/ga4.webp",
+      "assets/gui/start-menu/vanity-apps/hubspot.webp",
+      "assets/gui/start-menu/vanity-apps/semrush.png",
+      "assets/gui/start-menu/vanity-apps/office.png",
+      "assets/gui/start-menu/vanity-apps/hootsuite.webp"
+    ]
+  }
+} 

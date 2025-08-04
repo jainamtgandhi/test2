@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Positioning & Msg</title>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.6/dist/XP.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="positioning-msg.css">
+</head>
+<body>
+    <div class="main-window-content">
+        <aside class="left-panel overflow-y-auto-x-hidden">
+            <div id="social-links-card" class="left-panel__card left-panel__card--social collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Social Links</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown-alt.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+            <div id="skills-card" class="left-panel__card collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Skills</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+            <div id="software-card" class="left-panel__card collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Software</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+        </aside>
+        <div class="scroll-content overflow-y-auto-x-hidden">
+            <main class="main">
+                <div class="folder-grid">
+                    <div class="folder-item" data-folder="messaging-frameworks">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Messaging Frameworks" class="folder-icon">
+                        <span class="folder-label">Messaging Frameworks</span>
+                    </div>
+                    <div class="folder-item" data-folder="copy-guides">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Copy Guides" class="folder-icon">
+                        <span class="folder-label">Copy Guides</span>
+                    </div>
+                    <div class="folder-item" data-folder="value-props">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Value Props" class="folder-icon">
+                        <span class="folder-label">Value Props</span>
+                    </div>
+                    <div class="folder-item" data-folder="brand-guidelines">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Brand Guidelines" class="folder-icon">
+                        <span class="folder-label">Brand Guidelines</span>
+                    </div>
+                    <div class="folder-item" data-folder="tone-voice">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Tone & Voice" class="folder-icon">
+                        <span class="folder-label">Tone & Voice</span>
+                    </div>
+                    <div class="folder-item" data-folder="messaging-tests">
+                        <img src="../../../assets/gui/desktop/Folder-5.webp" alt="Messaging Tests" class="folder-icon">
+                        <span class="folder-label">Messaging Tests</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="positioning-msg.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var btn = document.querySelector('.topbar-btn.marketing-projects');
+            if (btn) {
+                btn.style.cursor = 'pointer';
+                btn.addEventListener('click', function() {
+                    if (window.parent && window.parent.eventBus && window.parent.EVENTS) {
+                        window.parent.eventBus.publish(window.parent.EVENTS.PROGRAM_OPEN, { programName: 'marketing-projects' });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

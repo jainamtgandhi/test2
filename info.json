@@ -3,6 +3,10 @@
     "webp": "/assets/apps/resume/resume.webp",
     "pdf": "/assets/apps/resume/resumeMitchIvin.pdf"
   },
+  "personas-placeholder": {
+    "webp": "/assets/apps/personas-placeholder/personas-placeholder.webp",
+    "pdf": "/assets/apps/personas-placeholder/personas-placeholder.pdf"
+  },
   "about": {
     "paragraphs": [
       "I'm Jainam, a marketing strategist based in the United States. I work at the intersection of data-driven insights and creative storytelling, shaped by a passion for understanding consumer behavior and driving business growth. My approach combines analytical thinking with strategic creativity to deliver impactful marketing solutions.",
