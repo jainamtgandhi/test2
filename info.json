@@ -171,10 +171,10 @@
   },
   "socials": [
     {
-      "key": "instagram",
-      "name": "Instagram",
-      "icon": "assets/gui/start-menu/instagram.webp",
-      "url": "http://instagram.com/jainamtgandhi",
+      "key": "sharebird",
+      "name": "Sharebird",
+      "icon": "assets/gui/start-menu/sharebird.png",
+      "url": "https://sharebird.com/profile/jainamtgandhi",
       "showInAbout": true
     },
     {
