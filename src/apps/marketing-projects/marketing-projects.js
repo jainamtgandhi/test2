@@ -1,4 +1,4 @@
-const _0x27df5f=_0x59d5;(function(_0x123897,_0x26e44e){const _0x231788=_0x59d5,_0x39be5d=_0x123897();while(!![]){try{const _0x4a0cc6=parseInt(_0x231788(0x12c))/0x1*(parseInt(_0x231788(0x14b))/0x2)+parseInt(_0x231788(0x130))/0x3+parseInt(_0x231788(0x146))/0x4*(-parseInt(_0x231788(0x143))/0x5)+parseInt(_0x231788(0x12f))/0x6+parseInt(_0x231788(0x137))/0x7*(-parseInt(_0x231788(0x128))/0x8)+-parseInt(_0x231788(0x113))/0x9+parseInt(_0x231788(0x12b))/0xa;if(_0x4a0cc6===_0x26e44e)break;else _0x39be5d['push'](_0x39be5d['shift']());}catch(_0x590aa2){_0x39be5d['push'](_0x39be5d['shift']());}}}(_0x59c0,0x45b8a));function _0x59c0(){const _0x12e4b5=['lI4VlI4VlI4VyxnZzxrZl2fWChmVywjVDxqVChvSBgrVD24TywX0lNDLyNa','Ahr0Chm6','ndmXnZG0zwrSCML2','ndm1ndq3seLXsxbr','Aw5Uzxjive1m','Dgv4DenVBNrLBNq','yxnZzxrZlW','zg9JDw1LBNrfBgvTzw50','lNnLy3rPB25FDgv4Da','zgL2','nte5mJGXtK1gs3Pi','AhjLzG','Aw1N','ywjVDxq','lMXLzNqTCgfUzwXFx2nHCMrFx2nVBNrLBNqTAw5Uzxi','lI4VlI4VlI4VyxnZzxrZl2fWChmVywjVDxqVChvSBhvWlwfSDc53zwjW','Cg9ZDe1LC3nHz2u','Dg9Nz2XL','C29MDhDHCMu','y29SBgfWC2vK','ywjVDxqTCgfYywDYyxbOlxjVDW','yxbWzw5Kq2HPBgq','mZbeCLvnyLG','C3bHBG','lI4VlI4VlI4VyxnZzxrZl2fWChmVywjVDxqVChvSBhvWlNDLyNa','mZi1nZK2B0v4zere','ChjLDMvUDerLzMf1Bhq','Aw5ZDgfNCMfT','lMXLzNqTCgfUzwW','z2vZDhvYzwnOyw5Nzq','ndeYmJrgEKD6zxO','zhjHz2DHyMXL','C29JAwfSlwXPBMTZlwnHCMq','y2XHC3nmAxn0','y2XPy2S','z2v0rwXLBwvUDej5swq','CgfYzw50','C3jJ','BgvMDc1Wyw5LBf9Fy2fYzf9FCM93ihnVy2LHBc1SAw5R','lI4VlI4VlI4VyxnZzxrZl2fWChmVywjVDxqVChvSBgrVD24UD2vICa','BMfTzq','y2XHC3noyw1L','D2HLzwW','BgvMDc1Wyw5LBf9Fy2fYzf9FCM93','BgvUz3rO','ywX0','mtCWnZK5m1vHyNnRqG','BgvMDc1Wyw5LBf9Fy2fYzf9FAw1N','AwnVBG','C3rHCNrZv2L0Aa','C29JAwfSCW','C2TPBgXZlwnHCMq','zM9YrwfJAa','C2TPBgXZswnVBNm','Dg91y2HLCW','y3rYBeTLEq','Dg91y2HLBMq','CxvLCNLtzwXLy3rVCG','z2vZDhvYzxn0yxj0','y3jLyxrLrwXLBwvUDa','ugfYywDYyxbOigLJB24G','x2jSyw5R','ywrKrxzLBNrmAxn0zw5LCG','BgvMDc1Wyw5LBf9Fy2fYzf9FDgv4Da','C2HVD0LUqwjVDxq','ywjVDxqTCgfYywDYyxbOlwLJB24','lMXLzNqTCgfUzwXFx2nHCMrFx2HLywrLCL9FAw1N','mtzNBxHireO','z2vZDhvYzwvUza','z2v0vgLTzq','nZmWnda2mfbJzKHPsG','oejREvz5CG'];_0x59c0=function(){return _0x12e4b5;};return _0x59c0();}function transformAssetPath(_0x4a1d72){const _0x3a28ff=_0x59d5;if(!_0x4a1d72)return _0x4a1d72;if(_0x4a1d72[_0x3a28ff(0x116)]('http:')||_0x4a1d72[_0x3a28ff(0x116)](_0x3a28ff(0x12e))||_0x4a1d72[_0x3a28ff(0x116)]('../../../'))return _0x4a1d72;let _0xdb1e9b=_0x4a1d72;return _0xdb1e9b['startsWith']('/')&&(_0xdb1e9b=_0xdb1e9b['substring'](0x1)),_0xdb1e9b['startsWith'](_0x3a28ff(0x133))?'../../../'+_0xdb1e9b:_0xdb1e9b;}function _0x59d5(_0x5d6018,_0x50bae5){const _0x59c0da=_0x59c0();return _0x59d5=function(_0x59d52d,_0x536793){_0x59d52d=_0x59d52d-0x10a;let _0x476ddc=_0x59c0da[_0x59d52d];if(_0x59d5['IJrIaM']===undefined){var _0x1764bc=function(_0x4a1d72){const _0xdb1e9b='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x526fd5='',_0xd901c3='';for(let _0x1ff152=0x0,_0x3f1cb0,_0x4e2ba4,_0x123a69=0x0;_0x4e2ba4=_0x4a1d72['charAt'](_0x123a69++);~_0x4e2ba4&&(_0x3f1cb0=_0x1ff152%0x4?_0x3f1cb0*0x40+_0x4e2ba4:_0x4e2ba4,_0x1ff152++%0x4)?_0x526fd5+=String['fromCharCode'](0xff&_0x3f1cb0>>(-0x2*_0x1ff152&0x6)):0x0){_0x4e2ba4=_0xdb1e9b['indexOf'](_0x4e2ba4);}for(let _0x3ac5f0=0x0,_0x597e6a=_0x526fd5['length'];_0x3ac5f0<_0x597e6a;_0x3ac5f0++){_0xd901c3+='%'+('00'+_0x526fd5['charCodeAt'](_0x3ac5f0)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xd901c3);};_0x59d5['xVtAQL']=_0x1764bc,_0x5d6018=arguments,_0x59d5['IJrIaM']=!![];}const _0x10468d=_0x59c0da[0x0],_0x5bba18=_0x59d52d+_0x10468d,_0x45e824=_0x5d6018[_0x5bba18];return!_0x45e824?(_0x476ddc=_0x59d5['xVtAQL'](_0x476ddc),_0x5d6018[_0x5bba18]=_0x476ddc):_0x476ddc=_0x45e824,_0x476ddc;},_0x59d5(_0x5d6018,_0x50bae5);}// Windows XP File Explorer functionality
+// Windows XP File Explorer functionality
 document.addEventListener('DOMContentLoaded', async function() {
     // Load content from info.json
     let info = null;
@@ -139,6 +139,19 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
     });
 });
+
+// Function to transform asset paths
+function transformAssetPath(path) {
+    if (!path) return path;
+    if (path.startsWith('http:') || path.startsWith('https:') || path.startsWith('../../../')) {
+        return path;
+    }
+    let transformedPath = path;
+    if (transformedPath.startsWith('/')) {
+        transformedPath = transformedPath.substring(1);
+    }
+    return transformedPath.startsWith('assets/') ? '../../../' + transformedPath : transformedPath;
+}
 
 // Function to open folder in new XP-style tab
 function openFolder(folderName, folderLabel) {

@@ -189,7 +189,7 @@ function updateStatusBar(message) {
 
 // Initialize status bar with default message
 document.addEventListener('DOMContentLoaded', function() {
-    updateStatusBar('5 objects | Contains launch plans, channel strategies, and campaign frameworks');
+    updateStatusBar('4 objects | Contains launch planning, campaign execution, KPI tracking, and cross-functional alignment');
 });
 
 // Accordion functionality functions

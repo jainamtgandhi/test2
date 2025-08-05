@@ -194,7 +194,7 @@ function updateStatusBar(message) {
 
 // Initialize status bar with default message
 document.addEventListener('DOMContentLoaded', function() {
-    updateStatusBar('4 objects | Contains persona maps, surveys, and reports');
+    updateStatusBar('4 objects | Contains persona development, research methods, pain point analysis, and insight synthesis');
 });
 
 // Accordion functionality functions

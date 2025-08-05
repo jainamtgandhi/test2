@@ -1,10 +1,10 @@
 @echo off
-echo Starting local server...
+echo Starting Node.js local server...
 echo.
 echo Your website will be available at:
 echo http://localhost:8000
 echo.
 echo Press Ctrl+C to stop the server
 echo.
-C:\Users\jaina\anaconda3\python.exe -m http.server 8000
+node start-server.js
 pause 

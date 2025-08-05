@@ -189,7 +189,7 @@ function updateStatusBar(message) {
 
 // Initialize status bar with default message
 document.addEventListener('DOMContentLoaded', function() {
-    updateStatusBar('3 objects | Contains competitor analysis, market trends, and reports');
+    updateStatusBar('4 objects | Contains competitor benchmarking, market sizing, pricing strategy, and opportunity mapping');
 });
 
 // Accordion functionality functions
