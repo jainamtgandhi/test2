@@ -4,7 +4,9 @@ function transformAssetPath(path) {
     if (path.startsWith('http:') || path.startsWith('https:') || path.startsWith('../../../../')) return path;
     let cleanPath = path;
     if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
-    return cleanPath.startsWith('assets/') ? '../../../../' + cleanPath : cleanPath;
+    const result = cleanPath.startsWith('assets/') ? '../../../../' + cleanPath : cleanPath;
+    console.log(`transformAssetPath: "${path}" -> "${result}"`);
+    return result;
 }
 
 // Windows XP File Explorer functionality
@@ -218,9 +220,9 @@ function expandCard(card) {
     const arrow = card.querySelector('.left-panel__card__header__img');
     if (arrow) {
         if (card.classList.contains('left-panel__card--social')) {
-            arrow.src = transformAssetPath('../../../assets/apps/about/pullup-alt.webp');
+            arrow.src = transformAssetPath('../../../../assets/apps/about/pullup-alt.webp');
         } else {
-            arrow.src = transformAssetPath('../../../assets/apps/about/pullup.webp');
+            arrow.src = transformAssetPath('../../../../assets/apps/about/pullup.webp');
         }
     }
 }
@@ -232,9 +234,9 @@ function toggleCard(card) {
     const arrow = card.querySelector('.left-panel__card__header__img');
     if (arrow) {
         if (card.classList.contains('left-panel__card--social')) {
-            arrow.src = isCollapsed ? transformAssetPath('../../../assets/apps/about/pulldown-alt.webp') : transformAssetPath('../../../assets/apps/about/pullup-alt.webp');
+            arrow.src = isCollapsed ? transformAssetPath('../../../../assets/apps/about/pulldown-alt.webp') : transformAssetPath('../../../../assets/apps/about/pullup-alt.webp');
         } else {
-            arrow.src = isCollapsed ? transformAssetPath('../../../assets/apps/about/pulldown.webp') : transformAssetPath('../../../assets/apps/about/pullup.webp');
+            arrow.src = isCollapsed ? transformAssetPath('../../../../assets/apps/about/pulldown.webp') : transformAssetPath('../../../../assets/apps/about/pullup.webp');
         }
     }
 } 
