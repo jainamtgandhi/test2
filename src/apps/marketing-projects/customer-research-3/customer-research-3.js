@@ -1,10 +1,10 @@
 // Transform asset path function
 function transformAssetPath(path) {
     if (!path) return path;
-    if (path.startsWith('http:') || path.startsWith('https:') || path.startsWith('../../../')) return path;
+    if (path.startsWith('http:') || path.startsWith('https:') || path.startsWith('../../../../')) return path;
     let cleanPath = path;
     if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
-    return cleanPath.startsWith('assets/') ? '../../../' + cleanPath : cleanPath;
+    return cleanPath.startsWith('assets/') ? '../../../../' + cleanPath : cleanPath;
 }
 
 // Windows XP File Explorer functionality
@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     try {
         const response = await fetch('./info.json');
         info = await response.json();
+        console.log('Info loaded successfully:', info);
     } catch (error) {
         console.error('Failed to load info.json', error);
     }
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (socialLinksCard && info.socials) {
             const socialContent = socialLinksCard.querySelector('.left-panel__card__content-inner');
             socialContent.innerHTML = '';
+            console.log('Populating social links:', info.socials.length, 'items');
             info.socials.forEach(social => {
                 if (social.url) {
                     const link = document.createElement('a');
@@ -37,6 +39,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                     img.className = 'left-panel__card__img';
                     img.src = transformAssetPath(social.icon);
                     img.alt = social.name;
+                    img.onerror = () => console.error('Failed to load social icon:', transformAssetPath(social.icon));
+                    img.onload = () => console.log('Successfully loaded social icon:', transformAssetPath(social.icon));
+                    console.log('Social icon path:', social.icon, '->', transformAssetPath(social.icon));
                     
                     const span = document.createElement('span');
                     span.className = 'left-panel__card__text';
@@ -47,6 +52,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                     socialContent.appendChild(link);
                 }
             });
+            // Expand the social links card by default
+            expandCard(socialLinksCard);
         }
 
         // Populate Skills
@@ -54,6 +61,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (skillsCard && info.about && info.about.skills) {
             const skillsContent = skillsCard.querySelector('.left-panel__card__content-inner');
             skillsContent.innerHTML = '';
+            console.log('Populating skills:', info.about.skills.length, 'items');
             info.about.skills.forEach((skill, index) => {
                 const row = document.createElement('div');
                 row.className = 'left-panel__card__row';
@@ -62,6 +70,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                 img.className = 'left-panel__card__img';
                 img.alt = skill;
                 img.src = transformAssetPath(info.about.skillsIcons[index] || '');
+                img.onerror = () => console.error('Failed to load skill icon:', transformAssetPath(info.about.skillsIcons[index] || ''));
+                img.onload = () => console.log('Successfully loaded skill icon:', transformAssetPath(info.about.skillsIcons[index] || ''));
+                console.log('Skill icon path:', info.about.skillsIcons[index], '->', transformAssetPath(info.about.skillsIcons[index] || ''));
                 
                 const span = document.createElement('span');
                 span.className = 'left-panel__card__text';
@@ -71,6 +82,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                 row.appendChild(span);
                 skillsContent.appendChild(row);
             });
+            // Expand the skills card by default
+            expandCard(skillsCard);
         }
 
         // Populate Software
@@ -78,6 +91,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (softwareCard && info.about && info.about.software) {
             const softwareContent = softwareCard.querySelector('.left-panel__card__content-inner');
             softwareContent.innerHTML = '';
+            console.log('Populating software:', info.about.software.length, 'items');
             info.about.software.forEach((software, index) => {
                 const row = document.createElement('div');
                 row.className = 'left-panel__card__row';
@@ -86,6 +100,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                 img.className = 'left-panel__card__img';
                 img.alt = software;
                 img.src = transformAssetPath(info.about.softwareIcons[index] || '');
+                img.onerror = () => console.error('Failed to load software icon:', transformAssetPath(info.about.softwareIcons[index] || ''));
+                img.onload = () => console.log('Successfully loaded software icon:', transformAssetPath(info.about.softwareIcons[index] || ''));
+                console.log('Software icon path:', info.about.softwareIcons[index], '->', transformAssetPath(info.about.softwareIcons[index] || ''));
                 
                 const span = document.createElement('span');
                 span.className = 'left-panel__card__text';
@@ -95,6 +112,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                 row.appendChild(span);
                 softwareContent.appendChild(row);
             });
+            // Expand the software card by default
+            expandCard(softwareCard);
         }
     }
 

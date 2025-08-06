@@ -1,0 +1,113 @@
+/* Customer Research 2 Styles */
+.main-window-content {
+    display: flex;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.left-panel {
+    width: 250px;
+    background: #e0e0e0;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.folder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.folder-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.folder-item:hover {
+    background: #f5f5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.folder-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.folder-label {
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    word-wrap: break-word;
+    max-width: 100px;
+}
+
+.left-panel__card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.left-panel__card__header {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.left-panel__card__header__text {
+    flex: 1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.left-panel__card__header__img {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.left-panel__card__content {
+    padding: 10px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.social-link img {
+    width: 16px;
+    height: 16px;
+}
+
+.collapsed .left-panel__card__content {
+    display: none;
+} 
