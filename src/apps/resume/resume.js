@@ -4,7 +4,7 @@ function _0xa1d7(_0x414b6b,_0x1fd13f){const _0x21c865=_0x21c8();return _0xa1d7=f
 async function handleSaveResume() {
     try {
         // Fetch the info.json to get the correct PDF path
-        const response = await fetch('info.json');
+        const response = await fetch('../../../info.json');
         const data = await response.json();
         
         if (data && data.resume && data.resume.pdf) {
