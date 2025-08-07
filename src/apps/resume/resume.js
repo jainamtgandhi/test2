@@ -2,6 +2,7 @@ function _0xa1d7(_0x414b6b,_0x1fd13f){const _0x21c865=_0x21c8();return _0xa1d7=f
 
 // Add save functionality that reads from info.json
 async function handleSaveResume() {
+    console.log('handleSaveResume called');
     try {
         // Fetch the info.json to get the correct PDF path
         const response = await fetch('../../../info.json');
@@ -11,6 +12,8 @@ async function handleSaveResume() {
             // Extract the filename from the path
             const pdfPath = data.resume.pdf;
             const fileName = pdfPath.split('/').pop();
+            
+            console.log('Downloading PDF:', pdfPath, 'as', fileName);
             
             // Create download link for the correct PDF
             const link = document.createElement('a');
@@ -36,7 +39,16 @@ async function handleSaveResume() {
 
 // Listen for save resume action from parent window
 window.addEventListener('message', function(event) {
+    console.log('Message received:', event.data);
+    
     if (event.data && event.data.type === 'iframe-interaction' && event.data.action === 'saveResume') {
+        console.log('Save resume message detected');
+        handleSaveResume();
+    }
+    
+    // Debug: log all messages to see what's being received
+    if (event.data && event.data.action === 'saveResume') {
+        console.log('Save resume action detected with any type');
         handleSaveResume();
     }
 });
