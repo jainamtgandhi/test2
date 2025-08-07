@@ -4,6 +4,25 @@
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    overflow: auto;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+    overflow: hidden;
+}
+
+body {
+    background: #97958f;
+    color: #000;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 11px;
 }
 
 .campaignexecution-image {
@@ -11,4 +30,65 @@
     max-height: 100vh;
     object-fit: contain;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    cursor: zoom-in;
+    transition: max-width .2s, max-height .2s, width .2s, height .2s;
+    box-sizing: content-box;
+}
+
+.campaignexecution-image.zoomed {
+    max-width: none;
+    max-height: none;
+    width: 160%;
+    height: auto;
+    cursor: zoom-out;
+}
+
+@media (min-width: 700px) {
+    .campaignexecution-image.zoomed {
+        width: 850px;
+        max-width: 90vw;
+    }
+}
+
+.campaignexecution-image.dragging {
+    cursor: grabbing;
+}
+
+.maximized-mode .campaignexecution-image:not(.zoomed) {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 0;
+    display: block;
+}
+
+.app-root, .campaignexecution-image, body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input, textarea {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+@media (max-width: 767px) {
+    .app-root {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    .maximized-mode.app-root {
+        padding: 16px 0;
+    }
 } 
