@@ -166,11 +166,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (crossfunctionalalignmentImage) {
             crossfunctionalalignmentImage.src = transformAssetPath(info.crossFunctionalAlignment.webp);
         }
-        if (crossfunctionalalignmentImage.complete && crossfunctionalalignmentImage.naturalWidth !== 0) {
-            initializeZoom();
-        } else {
-            crossfunctionalalignmentImage.addEventListener('load', initializeZoom);
-        }
+    }
+    
+    // Always initialize zoom functionality regardless of config
+    if (crossfunctionalalignmentImage.complete && crossfunctionalalignmentImage.naturalWidth !== 0) {
+        initializeZoom();
+    } else {
+        crossfunctionalalignmentImage.addEventListener('load', initializeZoom);
     }
 });
 

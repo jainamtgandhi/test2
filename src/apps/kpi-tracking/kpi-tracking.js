@@ -166,11 +166,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (kpitrackingImage) {
             kpitrackingImage.src = transformAssetPath(info.kpiTracking.webp);
         }
-        if (kpitrackingImage.complete && kpitrackingImage.naturalWidth !== 0) {
-            initializeZoom();
-        } else {
-            kpitrackingImage.addEventListener('load', initializeZoom);
-        }
+    }
+    
+    // Always initialize zoom functionality regardless of config
+    if (kpitrackingImage.complete && kpitrackingImage.naturalWidth !== 0) {
+        initializeZoom();
+    } else {
+        kpitrackingImage.addEventListener('load', initializeZoom);
     }
 });
 

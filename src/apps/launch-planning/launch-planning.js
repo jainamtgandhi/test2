@@ -166,11 +166,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (launchplanningImage) {
             launchplanningImage.src = transformAssetPath(info.launchPlanning.webp);
         }
-        if (launchplanningImage.complete && launchplanningImage.naturalWidth !== 0) {
-            initializeZoom();
-        } else {
-            launchplanningImage.addEventListener('load', initializeZoom);
-        }
+    }
+    
+    // Always initialize zoom functionality regardless of config
+    if (launchplanningImage.complete && launchplanningImage.naturalWidth !== 0) {
+        initializeZoom();
+    } else {
+        launchplanningImage.addEventListener('load', initializeZoom);
     }
 });
 

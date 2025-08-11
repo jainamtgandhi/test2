@@ -79,6 +79,18 @@
     "webp": "/assets/apps/go-to-market-placeholder/go-to-market-placeholder.webp",
     "pdf": "/assets/apps/go-to-market-placeholder/go-to-market-placeholder.pdf"
   },
+  "launchPlanning": {
+    "webp": "/assets/apps/launch-planning/launch-planning.webp"
+  },
+  "campaignExecution": {
+    "webp": "/assets/apps/campaign-execution/campaign-execution.webp"
+  },
+  "kpiTracking": {
+    "webp": "/assets/apps/kpi-tracking/kpi-tracking.webp"
+  },
+  "crossFunctionalAlignment": {
+    "webp": "/assets/apps/cross-functional-alignment/cross-functional-alignment.webp"
+  },
   "one-pagers-placeholder": {
     "webp": "/assets/apps/one-pagers-placeholder/one-pagers-placeholder.webp",
     "pdf": "/assets/apps/one-pagers-placeholder/one-pagers-placeholder.pdf"
