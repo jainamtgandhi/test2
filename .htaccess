@@ -6,6 +6,12 @@ RewriteRule ^future-of-supplychain/?$ future-of-supplychain.html [L]
 # Handle the future-of-supplychain/ route (with trailing slash)
 RewriteRule ^future-of-supplychain/$ future-of-supplychain.html [L]
 
+# Handle the personas-future-of-supplychain route
+RewriteRule ^personas-future-of-supplychain/?$ personas-future-of-supplychain.html [L]
+
+# Handle the personas-future-of-supplychain/ route (with trailing slash)
+RewriteRule ^personas-future-of-supplychain/$ personas-future-of-supplychain.html [L]
+
 # Redirect www to non-www (optional)
 RewriteCond %{HTTP_HOST} ^www\.heyitsjainam\.com [NC]
 RewriteRule ^(.*)$ https://heyitsjainam.com/$1 [L,R=301]
