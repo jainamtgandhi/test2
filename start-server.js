@@ -28,6 +28,17 @@ const server = http.createServer((req, res) => {
     filePath = './index.html';
   }
 
+  // Handle app routes - check if this is an app request
+  if (req.url.startsWith('/') && !req.url.includes('.')) {
+    const appName = req.url.substring(1); // Remove leading slash
+    const appPath = `./src/apps/${appName}/${appName}.html`;
+    
+    // Check if app exists
+    if (fs.existsSync(appPath)) {
+      filePath = appPath;
+    }
+  }
+
   const extname = path.extname(filePath);
   const contentType = mimeTypes[extname] || 'application/octet-stream';
 

@@ -146,12 +146,9 @@
 
         .solutions-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
             margin-top: 50px;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         .solution-card {
@@ -251,36 +248,6 @@
             opacity: 0.9;
         }
 
-        /* Portfolio Button Styles */
-        .portfolio-button {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 1rem;
-            font-weight: 600;
-            border: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-        }
-
-        .portfolio-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-        }
-
-        .portfolio-section {
-            text-align: center;
-            padding: 40px 20px;
-            background: white;
-        }
-
-        .portfolio-section--dark {
-            background: #f8fafc;
-        }
-
         /* Responsive Design */
         @media (max-width: 768px) {
             .hero h1 {
@@ -328,15 +295,6 @@
     </style>
 </head>
 <body>
-    <!-- Portfolio Section - Top -->
-    <section class="portfolio-section">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <p>Check out my other projects and work</p>
-            <a href="http://heyitsjainam.com/" target="_blank" class="portfolio-button">Visit My Portfolio</a>
-        </div>
-    </section>
-
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -473,15 +431,6 @@
             <h2>Deliver Better Decisions Faster</h2>
             <p>Join the future of supply chain innovation and transform your operations today</p>
             <a href="src/apps/future-of-supplychain/future-of-supplychain.html" class="cta-button">Get Started</a>
-        </div>
-    </section>
-
-    <!-- Portfolio Section - Bottom -->
-    <section class="portfolio-section portfolio-section--dark">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <p>Check out my other projects and work</p>
-            <a href="http://heyitsjainam.com/" target="_blank" class="portfolio-button">Visit My Portfolio</a>
         </div>
     </section>
 
