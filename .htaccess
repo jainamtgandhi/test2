@@ -20,6 +20,23 @@ RewriteRule ^(.*)$ https://heyitsjainam.com/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# Block access to sensitive files and directories
+<FilesMatch "\.(json|md|bat|ps1|py)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(info|projects|system)\.json$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Block access to backup and documentation directories
+RedirectMatch 403 ^/backup-rename/.*$
+RedirectMatch 403 ^/ANALYTICS_SETUP\.md$
+RedirectMatch 403 ^/PERMANENT_SERVER_SETUP\.md$
+RedirectMatch 403 ^/codebase_assessment\.md$
+
 # Handle 404 errors
 ErrorDocument 404 /404.html
 

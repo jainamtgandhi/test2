@@ -22,6 +22,27 @@ const mimeTypes = {
 };
 
 const server = http.createServer((req, res) => {
+  // Security: Block access to sensitive files
+  const sensitiveExtensions = ['.json', '.md', '.bat', '.ps1', '.py'];
+  const sensitiveFiles = ['info.json', 'projects.json', 'system.json'];
+  
+  if (sensitiveExtensions.some(ext => req.url.includes(ext)) || 
+      sensitiveFiles.some(file => req.url.includes(file))) {
+    res.writeHead(403, { 'Content-Type': 'text/plain' });
+    res.end('Access Forbidden');
+    return;
+  }
+  
+  // Block access to backup directory
+  if (req.url.includes('backup-rename') || 
+      req.url.includes('ANALYTICS_SETUP') ||
+      req.url.includes('PERMANENT_SERVER_SETUP') ||
+      req.url.includes('codebase_assessment')) {
+    res.writeHead(403, { 'Content-Type': 'text/plain' });
+    res.end('Access Forbidden');
+    return;
+  }
+
   let filePath = '.' + req.url;
   
   if (filePath === './') {
