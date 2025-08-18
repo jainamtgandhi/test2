@@ -31,11 +31,17 @@ const server = http.createServer((req, res) => {
   // Handle app routes - check if this is an app request
   if (req.url.startsWith('/') && !req.url.includes('.')) {
     const appName = req.url.substring(1); // Remove leading slash
-    const appPath = `./src/apps/${appName}/${appName}.html`;
     
-    // Check if app exists
-    if (fs.existsSync(appPath)) {
-      filePath = appPath;
+    // First check if there's a direct HTML file at root level
+    const rootPath = `./${appName}.html`;
+    if (fs.existsSync(rootPath)) {
+      filePath = rootPath;
+    } else {
+      // Fallback to app directory structure
+      const appPath = `./src/apps/${appName}/${appName}.html`;
+      if (fs.existsSync(appPath)) {
+        filePath = appPath;
+      }
     }
   }
 
