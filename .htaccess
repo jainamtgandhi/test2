@@ -7,10 +7,10 @@ RewriteRule ^future-of-supplychain/?$ future-of-supplychain.html [L]
 RewriteRule ^future-of-supplychain/$ future-of-supplychain.html [L]
 
 # Handle the personas-future-of-supplychain route
-RewriteRule ^personas-future-of-supplychain/?$ framework-for-lyric.html [L]
+RewriteRule ^personas-future-of-supplychain/?$ personas-future-of-supplychain.html [L]
 
 # Handle the personas-future-of-supplychain/ route (with trailing slash)
-RewriteRule ^personas-future-of-supplychain/$ framework-for-lyric.html [L]
+RewriteRule ^personas-future-of-supplychain/$ personas-future-of-supplychain.html [L]
 
 # Redirect www to non-www (optional)
 RewriteCond %{HTTP_HOST} ^www\.heyitsjainam\.com [NC]
