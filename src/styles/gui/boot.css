@@ -5,5 +5,15 @@
 .mobile-bottom-detail:nth-child(4) {
   display: inline !important;
   visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Override conflicting display rules for portfolio text */
+@media (max-width: 768px) {
+  .desktop-login-instruction:nth-child(2) {
+    display: inline !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
 }
 
