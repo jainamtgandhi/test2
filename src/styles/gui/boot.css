@@ -3,8 +3,21 @@
 /* Ensure portfolio text is always visible */
 .portfolio-text,
 .desktop-login-instruction.portfolio-text,
-.mobile-bottom-detail.portfolio-text {
+.mobile-bottom-detail.portfolio-text,
+#login-screen .portfolio-text,
+#login-screen .desktop-login-instruction.portfolio-text,
+#login-screen .mobile-bottom-detail.portfolio-text,
+body .portfolio-text,
+body #login-screen .portfolio-text,
+body .desktop-login-instruction.portfolio-text,
+body .mobile-bottom-detail.portfolio-text {
   display: inline !important;
   visibility: visible !important;
   opacity: 1 !important;
+  color: #fff !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  font-family: inherit !important;
+  position: static !important;
+  z-index: 9999 !important;
 }
