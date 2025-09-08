@@ -1,0 +1,74 @@
+/* Projects App Styles */
+.project-app-wrapper {
+  padding: 20px;
+  font-family: Tahoma, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.project-header {
+  color: #284ffd;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.project-section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-section:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.project-section h2 {
+  color: #284ffd;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-section p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.project-section ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.project-section li {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.project-section strong {
+  color: #284ffd;
+  font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .project-app-wrapper {
+    padding: 15px;
+  }
+  
+  .project-header {
+    font-size: 24px;
+  }
+  
+  .project-section {
+    padding: 15px;
+  }
+}

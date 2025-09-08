@@ -1,0 +1,10 @@
+{
+  "loading": "../assets/gui/boot/loading.png",
+  "userIcon": "../assets/gui/boot/userlogin.jpg",
+  "wallpaperDesktop": "../assets/gui/bgs/bliss.webp",
+  "wallpaperMobile": "../assets/gui/bgs/blissMobile.webp",
+  "balloon": {
+    "title": "Welcome to Jainam XP",
+    "body": "A pixel perfect OS recreation, built to showcase<br>my work and meticulous attention to detail."
+  }
+}

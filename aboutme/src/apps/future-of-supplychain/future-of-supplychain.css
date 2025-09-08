@@ -1,0 +1,229 @@
+/* Future of Supply Chain Styles */
+.main-window-content {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.left-panel {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.left-panel__card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.left-panel__card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.left-panel__card__header {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.left-panel__card__header__text {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.left-panel__card__header__img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.left-panel__card.collapsed .left-panel__card__header__img {
+    transform: rotate(180deg);
+}
+
+.left-panel__card__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.left-panel__card:not(.collapsed) .left-panel__card__content {
+    max-height: 500px;
+}
+
+.left-panel__card__content-inner {
+    padding: 20px;
+}
+
+.trends-list, .tech-list, .challenges-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trends-list li, .tech-list li, .challenges-list li {
+    color: white;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+}
+
+.trends-list li:last-child, .tech-list li:last-child, .challenges-list li:last-child {
+    border-bottom: none;
+}
+
+.scroll-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome_text {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-image-mobile {
+    display: none;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.content-section {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 30px;
+}
+
+.content-section h4 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content-section p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item h5 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.feature-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-window-content {
+        flex-direction: column;
+    }
+    
+    .left-panel {
+        width: 100%;
+        order: 2;
+    }
+    
+    .scroll-content {
+        order: 1;
+        padding: 20px;
+    }
+    
+    .welcome_text {
+        font-size: 2rem;
+    }
+    
+    .welcome-image-mobile {
+        display: inline-block;
+    }
+    
+    .content-section {
+        padding: 25px;
+    }
+    
+    .feature-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome_text {
+        font-size: 1.8rem;
+    }
+    
+    .content-section h4 {
+        font-size: 1.5rem;
+    }
+    
+    .content-section p {
+        font-size: 1rem;
+    }
+    
+    .feature-item {
+        padding: 20px;
+    }
+    
+    .feature-item h5 {
+        font-size: 1.2rem;
+    }
+}

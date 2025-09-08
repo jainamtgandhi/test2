@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future of Supply Chain - heyitsjainam.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Platform Layers Section */
+        .platform-layers {
+            padding: 60px 20px;
+            background: #f8fafc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #1a202c;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: #4a5568;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .layers-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .layer-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+        }
+
+        .layer-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .layer-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #1a202c;
+        }
+
+        .layer-card p {
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        /* Solutions Section */
+        .solutions {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .solution-card {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .solution-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #1a202c;
+            text-align: center;
+        }
+
+        .solution-card p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .solution-features {
+            list-style: none;
+        }
+
+        .solution-features li {
+            color: #4a5568;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .solution-features li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 60px 20px;
+            background: #f8fafc;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #2d3748;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-company {
+            color: #667eea;
+            font-size: 0.9rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-section .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .cta-section .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-section .cta-button[disabled] {
+            opacity: 0.6;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .cta-section .cta-button[disabled]:hover {
+            transform: none;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Portfolio Section */
+        .portfolio-section {
+            padding: 60px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .portfolio-cta {
+            margin-top: 30px;
+        }
+
+        .portfolio-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .portfolio-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .layers-grid, .solutions-grid, .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .layer-card, .solution-card, .testimonial-card {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Stay Ahead of Every Disruption</h1>
+            <p>Our Company helps Fortune 500 supply chain teams run 100+ disruption scenarios in minutes and forecast with accuracy with AI-powered planning that their legacy tools can't match.</p>
+            <a href="#" class="cta-button">Explore Innovation</a>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Solutions</h2>
+                <p>Comprehensive supply chain solutions designed for the modern enterprise</p>
+            </div>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <h3>Unify Your Data</h3>
+                    <p>Connect ERP, WMS, TMS, and supplier data into a single source of truth in days - no endless IT projects. Break down data silos and create a unified view of your entire supply chain ecosystem.</p>
+                    <ul class="solution-features">
+                        <li>Seamless ERP, WMS, and TMS integration</li>
+                        <li>Real-time data synchronization</li>
+                        <li>Automated data quality validation</li>
+                        <li>Unified dashboard and reporting</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <h3>Forecast & Optimize with AI</h3>
+                    <p>Predict demand, prevent stockouts, and design smarter networks with AI/ML models proven to be 240× faster than legacy tools. Transform your planning from reactive to proactive with intelligent automation.</p>
+                    <ul class="solution-features">
+                        <li>AI-powered demand forecasting</li>
+                        <li>Predictive inventory optimization</li>
+                        <li>Network design optimization</li>
+                        <li>Real-time risk assessment</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <h3>Plan Any Scenario</h3>
+                    <p>Run 100+ 'what-if' scenarios in minutes: tariffs, strikes, shipping delays. Test your options before disruption hits and build resilience into every decision with comprehensive scenario modeling.</p>
+                    <ul class="solution-features">
+                        <li>Rapid scenario generation and testing</li>
+                        <li>Supply chain disruption modeling</li>
+                        <li>Cost impact analysis</li>
+                        <li>Risk mitigation strategies</li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card">
+                    <h3>Empower Every Planner</h3>
+                    <p>Give your teams decision apps they can actually use - no data science degree required. Transparency for experts, simplicity for everyone. Democratize supply chain intelligence across your organization.</p>
+                    <ul class="solution-features">
+                        <li>Intuitive decision-making interfaces</li>
+                        <li>Role-based access and permissions</li>
+                        <li>Collaborative planning workflows</li>
+                        <li>Mobile-ready applications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Layers Section -->
+    <section class="platform-layers">
+        <div class="container">
+            <div class="section-header">
+                <h2>A four-layered platform to effortlessly model, plan, and operate Supply Chains at the speed of business.</h2>
+            </div>
+            
+            <div class="layers-grid">
+                <div class="layer-card">
+                    <div class="layer-number">01</div>
+                    <h3>Unified Data Layer</h3>
+                    <p>Bring all ERP, WMS, and TMS data into one connected hub. Eliminate data silos and create a single source of truth for your entire supply chain ecosystem with real-time synchronization and automated data quality validation.</p>
+                </div>
+                
+                <div class="layer-card">
+                    <div class="layer-number">02</div>
+                    <h3>AI Algorithm Library</h3>
+                    <p>Leverage built-in forecasting & optimization models, or plug in your own. Access a comprehensive library of pre-trained AI models for demand forecasting, inventory optimization, and network design, with the flexibility to customize for your specific business needs.</p>
+                </div>
+                
+                <div class="layer-card">
+                    <div class="layer-number">03</div>
+                    <h3>Rapid Scenario Planning</h3>
+                    <p>Test hundreds of scenarios at enterprise scale - in minutes. Run comprehensive what-if analyses for supply chain disruptions, cost optimization, and risk mitigation with lightning-fast computational engines that scale to your enterprise requirements.</p>
+                </div>
+                
+                <div class="layer-card">
+                    <div class="layer-number">04</div>
+                    <h3>Decision Apps for Teams</h3>
+                    <p>Simple interfaces for planners, powerful transparency for experts. Democratize supply chain intelligence with intuitive applications that empower every team member while providing deep analytical capabilities for advanced users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by Industry Leaders</h2>
+                <p>See how organizations are transforming their supply chains</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"With this platform we have already generated $4M in transportation and production savings to date and we're only at the end of Q2."</p>
+                    <div class="testimonial-author">Global Manufacturing Company</div>
+                    <div class="testimonial-company">Fortune 500 Manufacturer</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I am excited to bring our team into the 21st century. Giving us the adaptable, accurate, and disciplined capability through such a powerful tool."</p>
+                    <div class="testimonial-author">Supply Chain Director</div>
+                    <div class="testimonial-company">Leading Retail Chain</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"This platform has enabled us to take control of our innovation journey, both strategically and operationally. Our use cases are set to triple next year."</p>
+                    <div class="testimonial-author">Operations Manager</div>
+                    <div class="testimonial-company">Technology Company</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Deliver Better Decisions Faster</h2>
+            <p>Join the future of supply chain innovation and transform your operations today</p>
+            <a href="#" class="cta-button" disabled>Get Started</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Portfolio</h2>
+                <p>Check out my other projects and work</p>
+            </div>
+            <div class="portfolio-cta">
+                <a href="http://heyitsjainam.com/" target="_blank" class="portfolio-button">My Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        console.log('Future of Supply Chain page loaded successfully!');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM fully loaded and ready!');
+        });
+    </script>
+</body>
+</html>

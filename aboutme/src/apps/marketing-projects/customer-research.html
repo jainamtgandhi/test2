@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Customer Research</title>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.6/dist/XP.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="customer-research.css">
+</head>
+<body>
+    <div class="main-window-content">
+        <aside class="left-panel overflow-y-auto-x-hidden">
+            <div id="social-links-card" class="left-panel__card left-panel__card--social collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Social Links</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown-alt.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+            <div id="skills-card" class="left-panel__card collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Skills</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+            <div id="software-card" class="left-panel__card collapsed">
+                <div class="left-panel__card__header">
+                    <span class="left-panel__card__header__text">Software</span>
+                    <img class="left-panel__card__header__img" src="../../../assets/apps/about/pulldown.webp" alt="Icon">
+                </div>
+                <div class="left-panel__card__content">
+                    <div class="left-panel__card__content-inner"></div>
+                </div>
+            </div>
+        </aside>
+        <div class="scroll-content overflow-y-auto-x-hidden">
+            <main class="main">
+                <div class="folder-grid">
+                    <div class="folder-item" data-folder="persona-development-customer-journey-mapping">
+                        <img src="../../../assets/gui/desktop/resume.webp" alt="Personas & Journeys" class="folder-icon">
+                        <span class="folder-label">Personas & Journeys</span>
+                    </div>
+                    <div class="folder-item" data-folder="qualitative-quantitative-research">
+                        <img src="../../../assets/gui/desktop/resume.webp" alt="Research Methods" class="folder-icon">
+                        <span class="folder-label">Research Methods</span>
+                    </div>
+                    <div class="folder-item" data-folder="pain-point-identification-needs-analysis">
+                        <img src="../../../assets/gui/desktop/resume.webp" alt="Pain Point Analysis" class="folder-icon">
+                        <span class="folder-label">Pain Point Analysis</span>
+                    </div>
+                    <div class="folder-item" data-folder="insight-synthesis-actionable-recommendations">
+                        <img src="../../../assets/gui/desktop/resume.webp" alt="Insight Synthesis" class="folder-icon">
+                        <span class="folder-label">Insight Synthesis</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="customer-research.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var btn = document.querySelector('.topbar-btn.marketing-projects');
+            if (btn) {
+                btn.style.cursor = 'pointer';
+                btn.addEventListener('click', function() {
+                    if (window.parent && window.parent.eventBus && window.parent.EVENTS) {
+                        window.parent.eventBus.publish(window.parent.EVENTS.PROGRAM_OPEN, { programName: 'marketing-projects' });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

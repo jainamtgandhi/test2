@@ -1,0 +1,128 @@
+[
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/customer-research.webp",
+    "images": [
+      "../assets/apps/projects/marketing/customer-research-1.webp",
+      "../assets/apps/projects/marketing/customer-research-2.webp",
+      "../assets/apps/projects/marketing/competitive-research.webp"
+    ],
+    "title": "Customer Research",
+    "subtitle": "Deep user insights that drive product decisions through interviews, surveys, and behavioral analysis",
+    "description": "Comprehensive customer research methodologies including user interviews, surveys, persona development, and behavioral analysis. Focused on uncovering deep insights that inform product decisions and marketing strategies.",
+    "bulletPoints": [
+      "User interviews and persona development",
+      "Survey design and behavioral analysis",
+      "Market segmentation and targeting",
+      "Customer journey mapping"
+    ],
+    "toolsUsed": ["SurveyMonkey", "Hotjar", "Google Analytics", "UserTesting"],
+    "workType": "marketing",
+    "alt": "Customer Research"
+  },
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/market-research.webp",
+    "images": [
+      "../assets/apps/projects/marketing/market-research-1.webp",
+      "../assets/apps/projects/marketing/market-research-2.webp",
+      "../assets/apps/projects/marketing/market-research-3.webp"
+    ],
+    "title": "Market Research",
+    "subtitle": "Competitive intelligence and market trends that identify opportunities and inform strategy",
+    "description": "Comprehensive market research including competitive analysis, industry trends, and opportunity identification. Data-driven insights that inform strategic decision-making and market positioning.",
+    "bulletPoints": [
+      "Competitive analysis and benchmarking",
+      "Industry trend analysis",
+      "Market opportunity identification",
+      "SWOT analysis and strategic planning"
+    ],
+    "toolsUsed": ["SEMrush", "SimilarWeb", "Google Trends", "Mintel"],
+    "workType": "marketing",
+    "alt": "Market Research"
+  },
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/positioning-messaging.webp",
+    "images": [
+      "../assets/apps/projects/marketing/positioning-1.webp",
+      "../assets/apps/projects/marketing/positioning-2.webp",
+      "../assets/apps/projects/marketing/positioning-3.webp"
+    ],
+    "title": "Positioning & Messaging",
+    "subtitle": "Compelling brand stories and value propositions that resonate with target audiences",
+    "description": "Strategic brand positioning and messaging development that creates compelling value propositions and brand stories. Focused on connecting with target audiences and driving engagement.",
+    "bulletPoints": [
+      "Brand positioning strategy",
+      "Value proposition development",
+      "Messaging framework creation",
+      "Brand voice and tone guidelines"
+    ],
+    "toolsUsed": ["Figma", "Canva", "Brand Guidelines", "Content Strategy"],
+    "workType": "marketing",
+    "alt": "Positioning & Messaging"
+  },
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/gtm-strategy.webp",
+    "images": [
+      "../assets/apps/projects/marketing/gtm-1.webp",
+      "../assets/apps/projects/marketing/gtm-2.webp",
+      "../assets/apps/projects/marketing/gtm-3.webp"
+    ],
+    "title": "GTM Strategy",
+    "subtitle": "End-to-end product launch execution that drives adoption and revenue growth",
+    "description": "Comprehensive go-to-market strategies including product launch campaigns, channel strategy, and distribution planning. Focused on driving adoption and revenue growth through strategic execution.",
+    "bulletPoints": [
+      "Product launch strategy and execution",
+      "Channel strategy and distribution",
+      "Pricing strategy and market entry",
+      "Launch campaign management"
+    ],
+    "toolsUsed": ["HubSpot", "Salesforce", "Google Ads", "Facebook Ads"],
+    "workType": "marketing",
+    "alt": "GTM Strategy"
+  },
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/sales-enablement.webp",
+    "images": [
+      "../assets/apps/projects/marketing/sales-1.webp",
+      "../assets/apps/projects/marketing/sales-2.webp",
+      "../assets/apps/projects/marketing/sales-3.webp"
+    ],
+    "title": "Sales Enablement",
+    "subtitle": "Strategic assets and training that accelerate sales cycles and improve close rates",
+    "description": "Sales enablement programs including collateral development, training materials, and process optimization. Designed to accelerate sales cycles and improve conversion rates.",
+    "bulletPoints": [
+      "Sales collateral development",
+      "Training and onboarding programs",
+      "Lead generation campaigns",
+      "Sales process optimization"
+    ],
+    "toolsUsed": ["Salesforce", "Pardot", "LinkedIn Sales Navigator", "Sales Collateral"],
+    "workType": "marketing",
+    "alt": "Sales Enablement"
+  },
+  {
+    "type": "image",
+    "src": "../assets/apps/projects/marketing/digital-marketing.webp",
+    "images": [
+      "../assets/apps/projects/marketing/digital-1.webp",
+      "../assets/apps/projects/marketing/digital-2.webp",
+      "../assets/apps/projects/marketing/digital-3.webp"
+    ],
+    "title": "Digital Marketing",
+    "subtitle": "Multi-channel digital campaigns that drive engagement and conversions",
+    "description": "Comprehensive digital marketing campaigns across multiple channels including social media, email marketing, PPC, and content marketing. Focused on driving engagement and conversions.",
+    "bulletPoints": [
+      "Social media marketing campaigns",
+      "Email marketing and automation",
+      "PPC and digital advertising",
+      "Content marketing strategy"
+    ],
+    "toolsUsed": ["Mailchimp", "Hootsuite", "Google Ads", "Facebook Business Manager"],
+    "workType": "marketing",
+    "alt": "Digital Marketing"
+  }
+]
