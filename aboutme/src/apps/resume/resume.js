@@ -5,7 +5,7 @@ async function handleSaveResume() {
     console.log('handleSaveResume called');
     try {
         // Fetch the info.json to get the correct PDF path
-        const response = await fetch('../../../info.json');
+        const response = await fetch('../../../../info.json');
         const data = await response.json();
         
         if (data && data.resume && data.resume.pdf) {
@@ -17,7 +17,7 @@ async function handleSaveResume() {
             
             // Create download link for the correct PDF
             const link = document.createElement('a');
-            link.href = `../../../${pdfPath}?t=${Date.now()}`;
+            link.href = `../../../../${pdfPath}?t=${Date.now()}`;
             link.download = fileName;
             document.body.appendChild(link);
             link.click();
@@ -29,7 +29,7 @@ async function handleSaveResume() {
         console.error('Error loading info.json:', error);
         // Fallback to default PDF if info.json fails
         const link = document.createElement('a');
-        link.href = '../../../assets/apps/resume/Resume_JainamGandhi.pdf?t=' + Date.now();
+        link.href = '../../../../assets/apps/resume/Resume_JainamGandhi.pdf?t=' + Date.now();
         link.download = 'Resume_JainamGandhi.pdf';
         document.body.appendChild(link);
         link.click();

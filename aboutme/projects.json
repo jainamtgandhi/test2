@@ -1,11 +1,11 @@
 [
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/customer-research.webp",
+    "src": "assets/apps/qualitative-quantitative-research/qualitative-quantitative-research.webp",
     "images": [
-      "../assets/apps/projects/marketing/customer-research-1.webp",
-      "../assets/apps/projects/marketing/customer-research-2.webp",
-      "../assets/apps/projects/marketing/competitive-research.webp"
+      "assets/apps/qualitative-quantitative-research/qualitative-quantitative-research.webp",
+      "assets/apps/persona-development-customer-journey-mapping/persona-development-customer-journey-mapping.webp",
+      "assets/apps/competitor-benchmarking/competitor-benchmarking.webp"
     ],
     "title": "Customer Research",
     "subtitle": "Deep user insights that drive product decisions through interviews, surveys, and behavioral analysis",
@@ -22,11 +22,11 @@
   },
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/market-research.webp",
+    "src": "assets/apps/market-sizing/market-sizing.webp",
     "images": [
-      "../assets/apps/projects/marketing/market-research-1.webp",
-      "../assets/apps/projects/marketing/market-research-2.webp",
-      "../assets/apps/projects/marketing/market-research-3.webp"
+      "assets/apps/market-sizing/market-sizing.webp",
+      "assets/apps/opportunity-mapping/opportunity-mapping.webp",
+      "assets/apps/pricing-strategy/pricing-strategy.webp"
     ],
     "title": "Market Research",
     "subtitle": "Competitive intelligence and market trends that identify opportunities and inform strategy",
@@ -43,11 +43,11 @@
   },
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/positioning-messaging.webp",
+    "src": "assets/apps/message-testing/message-testing.webp",
     "images": [
-      "../assets/apps/projects/marketing/positioning-1.webp",
-      "../assets/apps/projects/marketing/positioning-2.webp",
-      "../assets/apps/projects/marketing/positioning-3.webp"
+      "assets/apps/message-testing/message-testing.webp",
+      "assets/apps/value-proposition/value-proposition.webp",
+      "assets/apps/messaging-frameworks-placeholder/messaging-frameworks-placeholder.webp"
     ],
     "title": "Positioning & Messaging",
     "subtitle": "Compelling brand stories and value propositions that resonate with target audiences",
@@ -64,11 +64,11 @@
   },
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/gtm-strategy.webp",
+    "src": "assets/apps/launch-planning/launch-planning.webp",
     "images": [
-      "../assets/apps/projects/marketing/gtm-1.webp",
-      "../assets/apps/projects/marketing/gtm-2.webp",
-      "../assets/apps/projects/marketing/gtm-3.webp"
+      "assets/apps/launch-planning/launch-planning.webp",
+      "assets/apps/campaign-execution/campaign-execution.webp",
+      "assets/apps/kpi-tracking/kpi-tracking.webp"
     ],
     "title": "GTM Strategy",
     "subtitle": "End-to-end product launch execution that drives adoption and revenue growth",
@@ -85,11 +85,11 @@
   },
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/sales-enablement.webp",
+    "src": "assets/apps/sales-decks-placeholder/sales-decks-placeholder.webp",
     "images": [
-      "../assets/apps/projects/marketing/sales-1.webp",
-      "../assets/apps/projects/marketing/sales-2.webp",
-      "../assets/apps/projects/marketing/sales-3.webp"
+      "assets/apps/sales-decks-placeholder/sales-decks-placeholder.webp",
+      "assets/apps/one-pagers-placeholder/one-pagers-placeholder.webp",
+      "assets/apps/case-studies-placeholder/case-studies-placeholder.webp"
     ],
     "title": "Sales Enablement",
     "subtitle": "Strategic assets and training that accelerate sales cycles and improve close rates",
@@ -106,11 +106,11 @@
   },
   {
     "type": "image",
-    "src": "../assets/apps/projects/marketing/digital-marketing.webp",
+    "src": "assets/apps/seo-placeholder/seo-placeholder.webp",
     "images": [
-      "../assets/apps/projects/marketing/digital-1.webp",
-      "../assets/apps/projects/marketing/digital-2.webp",
-      "../assets/apps/projects/marketing/digital-3.webp"
+      "assets/apps/seo-placeholder/seo-placeholder.webp",
+      "assets/apps/content-marketing-placeholder/content-marketing-placeholder.webp",
+      "assets/apps/paid-ads-placeholder/paid-ads-placeholder.webp"
     ],
     "title": "Digital Marketing",
     "subtitle": "Multi-channel digital campaigns that drive engagement and conversions",

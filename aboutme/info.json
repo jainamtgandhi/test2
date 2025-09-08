@@ -1,0 +1,207 @@
+{
+  "resume": {
+    "webp": "assets/apps/resume/resume.webp",
+    "pdf": "assets/apps/resume/Resume_JainamGandhi.pdf"
+  },
+  "personas-placeholder": {
+    "webp": "../assets/apps/personas-placeholder/personas-placeholder.webp",
+    "pdf": "../assets/apps/personas-placeholder/personas-placeholder.pdf"
+  },
+  "survey-data-placeholder": {
+    "webp": "../assets/apps/survey-data-placeholder/survey-data-placeholder.webp",
+    "pdf": "../assets/apps/survey-data-placeholder/survey-data-placeholder.pdf"
+  },
+  "interview-notes-placeholder": {
+    "webp": "../assets/apps/interview-notes-placeholder/interview-notes-placeholder.webp",
+    "pdf": "../assets/apps/interview-notes-placeholder/interview-notes-placeholder.pdf"
+  },
+  "research-reports-placeholder": {
+    "webp": "../assets/apps/research-reports-placeholder/research-reports-placeholder.webp",
+    "pdf": "../assets/apps/research-reports-placeholder/research-reports-placeholder.pdf"
+  },
+  "competitive-analysis-placeholder": {
+    "webp": "../assets/apps/competitive-analysis-placeholder/competitive-analysis-placeholder.webp",
+    "pdf": "../assets/apps/competitive-analysis-placeholder/competitive-analysis-placeholder.pdf"
+  },
+  "tam-sam-som-placeholder": {
+    "webp": "../assets/apps/tam-sam-som-placeholder/tam-sam-som-placeholder.webp",
+    "pdf": "../assets/apps/tam-sam-som-placeholder/tam-sam-som-placeholder.pdf"
+  },
+  "market-trends-placeholder": {
+    "webp": "../assets/apps/market-trends-placeholder/market-trends-placeholder.webp",
+    "pdf": "../assets/apps/market-trends-placeholder/market-trends-placeholder.pdf"
+  },
+  "industry-reports-placeholder": {
+    "webp": "../assets/apps/industry-reports-placeholder/industry-reports-placeholder.webp",
+    "pdf": "../assets/apps/industry-reports-placeholder/industry-reports-placeholder.pdf"
+  },
+  "market-sizing-placeholder": {
+    "webp": "../assets/apps/market-sizing-placeholder/market-sizing-placeholder.webp",
+    "pdf": "../assets/apps/market-sizing-placeholder/market-sizing-placeholder.pdf"
+  },
+  "messaging-frameworks-placeholder": {
+    "webp": "../assets/apps/messaging-frameworks-placeholder/messaging-frameworks-placeholder.webp",
+    "pdf": "../assets/apps/messaging-frameworks-placeholder/messaging-frameworks-placeholder.pdf"
+  },
+  "copy-guides-placeholder": {
+    "webp": "../assets/apps/copy-guides-placeholder/copy-guides-placeholder.webp",
+    "pdf": "../assets/apps/copy-guides-placeholder/copy-guides-placeholder.pdf"
+  },
+  "value-props-placeholder": {
+    "webp": "../assets/apps/value-props-placeholder/value-props-placeholder.webp",
+    "pdf": "../assets/apps/value-props-placeholder/value-props-placeholder.pdf"
+  },
+  "brand-guidelines-placeholder": {
+    "webp": "../assets/apps/brand-guidelines-placeholder/brand-guidelines-placeholder.webp",
+    "pdf": "../assets/apps/brand-guidelines-placeholder/brand-guidelines-placeholder.pdf"
+  },
+  "tone-voice-placeholder": {
+    "webp": "../assets/apps/tone-voice-placeholder/tone-voice-placeholder.webp",
+    "pdf": "../assets/apps/tone-voice-placeholder/tone-voice-placeholder.pdf"
+  },
+  "messaging-tests-placeholder": {
+    "webp": "../assets/apps/messaging-tests-placeholder/messaging-tests-placeholder.webp",
+    "pdf": "../assets/apps/messaging-tests-placeholder/messaging-tests-placeholder.pdf"
+  },
+  "launch-plans-placeholder": {
+    "webp": "../assets/apps/launch-plans-placeholder/launch-plans-placeholder.webp",
+    "pdf": "../assets/apps/launch-plans-placeholder/launch-plans-placeholder.pdf"
+  },
+  "campaign-timelines-placeholder": {
+    "webp": "../assets/apps/campaign-timelines-placeholder/campaign-timelines-placeholder.webp",
+    "pdf": "../assets/apps/campaign-timelines-placeholder/campaign-timelines-placeholder.pdf"
+  },
+  "channel-strategy-placeholder": {
+    "webp": "../assets/apps/channel-strategy-placeholder/channel-strategy-placeholder.webp",
+    "pdf": "../assets/apps/channel-strategy-placeholder/channel-strategy-placeholder.pdf"
+  },
+  "go-to-market-placeholder": {
+    "webp": "../assets/apps/go-to-market-placeholder/go-to-market-placeholder.webp",
+    "pdf": "../assets/apps/go-to-market-placeholder/go-to-market-placeholder.pdf"
+  },
+  "launchPlanning": {
+    "webp": "../assets/apps/launch-planning/launch-planning.webp"
+  },
+  "campaignExecution": {
+    "webp": "../assets/apps/campaign-execution/campaign-execution.webp"
+  },
+  "kpiTracking": {
+    "webp": "../assets/apps/kpi-tracking/kpi-tracking.webp"
+  },
+  "crossFunctionalAlignment": {
+    "webp": "../assets/apps/cross-functional-alignment/cross-functional-alignment.webp"
+  },
+  "one-pagers-placeholder": {
+    "webp": "../assets/apps/one-pagers-placeholder/one-pagers-placeholder.webp",
+    "pdf": "../assets/apps/one-pagers-placeholder/one-pagers-placeholder.pdf"
+  },
+  "battlecards-placeholder": {
+    "webp": "../assets/apps/battlecards-placeholder/battlecards-placeholder.webp",
+    "pdf": "../assets/apps/battlecards-placeholder/battlecards-placeholder.pdf"
+  },
+  "email-templates-placeholder": {
+    "webp": "../assets/apps/email-templates-placeholder/email-templates-placeholder.webp",
+    "pdf": "../assets/apps/email-templates-placeholder/email-templates-placeholder.pdf"
+  },
+  "sales-decks-placeholder": {
+    "webp": "../assets/apps/sales-decks-placeholder/sales-decks-placeholder.webp",
+    "pdf": "../assets/apps/sales-decks-placeholder/sales-decks-placeholder.pdf"
+  },
+  "case-studies-placeholder": {
+    "webp": "../assets/apps/case-studies-placeholder/case-studies-placeholder.webp",
+    "pdf": "../assets/apps/case-studies-placeholder/case-studies-placeholder.pdf"
+  },
+  "seo-placeholder": {
+    "webp": "../assets/apps/seo-placeholder/seo-placeholder.webp",
+    "pdf": "../assets/apps/seo-placeholder/seo-placeholder.pdf"
+  },
+  "content-marketing-placeholder": {
+    "webp": "../assets/apps/content-marketing-placeholder/content-marketing-placeholder.webp",
+    "pdf": "../assets/apps/content-marketing-placeholder/content-marketing-placeholder.pdf"
+  },
+  "paid-ads-placeholder": {
+    "webp": "../assets/apps/paid-ads-placeholder/paid-ads-placeholder.webp",
+    "pdf": "../assets/apps/paid-ads-placeholder/paid-ads-placeholder.pdf"
+  },
+  "email-campaigns-placeholder": {
+    "webp": "../assets/apps/email-campaigns-placeholder/email-campaigns-placeholder.webp",
+    "pdf": "../assets/apps/email-campaigns-placeholder/email-campaigns-placeholder.pdf"
+  },
+  "social-media-placeholder": {
+    "webp": "../assets/apps/social-media-placeholder/social-media-placeholder.webp",
+    "pdf": "../assets/apps/social-media-placeholder/social-media-placeholder.pdf"
+  },
+  "analytics-placeholder": {
+    "webp": "../assets/apps/analytics-placeholder/analytics-placeholder.webp",
+    "pdf": "../assets/apps/analytics-placeholder/analytics-placeholder.pdf"
+  },
+  "about": {
+    "paragraphs": [
+      "I'm Jainam, a marketing strategist based in the United States. I work at the intersection of data-driven insights and creative storytelling, shaped by a passion for understanding consumer behavior and driving business growth. My approach combines analytical thinking with strategic creativity to deliver impactful marketing solutions.",
+      "My journey in marketing began with a deep curiosity about how brands connect with their audiences. I learned that successful marketing isn't just about selling products—it's about understanding customer needs, crafting compelling narratives, and building meaningful relationships that drive long-term value.",
+      "Working across various industries has taught me the power of strategic positioning and messaging. It's not just about creating campaigns, it's about understanding market dynamics, competitive landscapes, and customer psychology to develop strategies that resonate and drive results.",
+      "I've developed expertise in go-to-market strategies, product launches, and customer research. My work demands sharp analytical thinking, creative problem-solving, and the ability to adapt strategies based on market feedback and changing consumer behaviors.",
+      "My long-term goal is to help companies build sustainable growth through strategic marketing that connects with customers on a deeper level, driving both brand awareness and measurable business outcomes."
+    ],
+    "p1": "../assets/apps/about/p1.webp",
+    "p2": "../assets/apps/about/p2.webp",
+    "p3": "../assets/apps/about/p3.webp",
+    "p4": "../assets/apps/about/p4.webp",
+    "p5": "../assets/apps/about/p5.webp",
+    "skills": [
+      "GTM Strategy",
+      "Product Launches",
+      "Messaging & Positioning",
+      "Customer Research and User/Buyer Personas",
+      "Competitive Intelligence"
+    ],
+    "skillsIcons": [
+      "../assets/apps/about/skill1.webp",
+      "../assets/apps/about/skill2.webp",
+      "../assets/apps/about/skill3.webp",
+      "../assets/apps/about/skill4.webp",
+      "../assets/apps/about/skill5.webp"
+    ],
+    "software": [
+      "Google Analytics",
+      "HubSpot",
+      "Semrush",
+      "Office Suite",
+      "Hootsuite"
+    ],
+    "softwareIcons": [
+      "../assets/gui/start-menu/vanity-apps/ga4.webp",
+      "../assets/gui/start-menu/vanity-apps/hubspot.webp",
+      "../assets/gui/start-menu/vanity-apps/semrush.png",
+      "../assets/gui/start-menu/vanity-apps/office.png",
+      "../assets/gui/start-menu/vanity-apps/hootsuite.webp"
+    ]
+  },
+  "contact": {
+    "name": "Jainam Gandhi",
+    "email": "hi@heyitsjainam.com"
+  },
+  "socials": [
+    {
+      "key": "sharebird",
+      "name": "Sharebird",
+      "icon": "../assets/gui/start-menu/sharebird.png",
+      "url": "https://sharebird.com/profile/jainamtgandhi",
+      "showInAbout": true
+    },
+    {
+      "key": "medium",
+      "name": "Medium",
+      "icon": "../assets/gui/start-menu/medium.svg",
+      "url": "https://medium.com/@jainamtgandhi",
+      "showInAbout": true
+    },
+    {
+      "key": "linkedin",
+      "name": "LinkedIn",
+      "icon": "../assets/gui/start-menu/linkedin.png",
+      "url": "https://www.linkedin.com/in/jainamtgandhi/",
+      "showInAbout": true
+    }
+  ]
+}

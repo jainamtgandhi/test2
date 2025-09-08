@@ -220,9 +220,9 @@ function expandCard(card) {
     const arrow = card.querySelector('.left-panel__card__header__img');
     if (arrow) {
         if (card.classList.contains('left-panel__card--social')) {
-            arrow.src = transformAssetPath('../../../../assets/apps/about/pullup-alt.webp');
+            arrow.src = transformAssetPath('../../../../../../../../assets/apps/about/pullup-alt.webp');
         } else {
-            arrow.src = transformAssetPath('../../../../assets/apps/about/pullup.webp');
+            arrow.src = transformAssetPath('../../../../../../../../assets/apps/about/pullup.webp');
         }
     }
 }
@@ -234,9 +234,9 @@ function toggleCard(card) {
     const arrow = card.querySelector('.left-panel__card__header__img');
     if (arrow) {
         if (card.classList.contains('left-panel__card--social')) {
-            arrow.src = isCollapsed ? transformAssetPath('../../../../assets/apps/about/pulldown-alt.webp') : transformAssetPath('../../../../assets/apps/about/pullup-alt.webp');
+            arrow.src = isCollapsed ? transformAssetPath('../../../../../../../../assets/apps/about/pulldown-alt.webp') : transformAssetPath('../../../../../../../../assets/apps/about/pullup-alt.webp');
         } else {
-            arrow.src = isCollapsed ? transformAssetPath('../../../../assets/apps/about/pulldown.webp') : transformAssetPath('../../../../assets/apps/about/pullup.webp');
+            arrow.src = isCollapsed ? transformAssetPath('../../../../../../../../assets/apps/about/pulldown.webp') : transformAssetPath('../../../../../../../../assets/apps/about/pullup.webp');
         }
     }
 } 

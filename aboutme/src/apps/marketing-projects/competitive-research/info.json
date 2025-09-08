@@ -28,9 +28,9 @@
       "Specialized in digital marketing, content creation, and sales enablement across B2B and B2C markets.",
       "Experienced in developing comprehensive marketing campaigns and driving measurable business results."
     ],
-    "p1": "../../../assets/apps/about/skill1.webp",
-    "p2": "../../../assets/apps/about/skill2.webp",
-    "p3": "../../../assets/apps/about/skill3.webp",
+    "p1": "assets/apps/about/skill1.webp",
+    "p2": "assets/apps/about/skill2.webp",
+    "p3": "assets/apps/about/skill3.webp",
     "skills": [
       "GTM Strategy",
       "Product Launches",
