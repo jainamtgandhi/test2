@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDown, Download } from 'lucide-react';
-import Link from 'next/link';
+import { ArrowDown } from 'lucide-react';
 
 export default function Hero() {
   const scrollToWork = () => {
@@ -46,7 +45,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex justify-center items-center"
           >
             <button
               onClick={scrollToWork}
@@ -55,14 +54,6 @@ export default function Hero() {
               <span>View My Work</span>
               <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
             </button>
-            
-            <Link
-              href="/resume.pdf"
-              className="border border-border hover:border-primary-600 text-text-primary hover:text-primary-600 px-8 py-4 rounded-2xl font-medium transition-all duration-200 flex items-center space-x-2 group"
-            >
-              <Download className="w-5 h-5" />
-              <span>Download Resume</span>
-            </Link>
           </motion.div>
 
           {/* Credibility strip */}

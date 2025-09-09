@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Hey It\'s Jainam - Product Marketing Manager',
+  title: 'Hey It\'s Jainam',
   description: 'Strategic Product Marketing Manager specializing in customer research, market analysis, and go-to-market strategy. Helping B2B companies accelerate growth through data-driven insights.',
   keywords: ['product marketing', 'customer research', 'market analysis', 'go-to-market strategy', 'B2B marketing'],
   authors: [{ name: 'Jainam Gandhi' }],

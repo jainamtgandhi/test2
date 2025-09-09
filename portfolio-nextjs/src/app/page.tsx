@@ -4,9 +4,8 @@ import { motion } from 'framer-motion';
 import Hero from '@/components/Hero';
 import SectionCard from '@/components/SectionCard';
 import CaseStudyCard from '@/components/CaseStudyCard';
-import TestimonialCard from '@/components/TestimonialCard';
 import CTASection from '@/components/CTASection';
-import { pageData, caseStudy, testimonial } from '@/lib/config';
+import { pageData, caseStudy } from '@/lib/config';
 
 const sectionCards = [
   {
@@ -105,13 +104,6 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto">
             <CaseStudyCard caseStudy={caseStudy} />
           </div>
-        </div>
-      </section>
-
-      {/* Testimonial */}
-      <section className="py-24 bg-card-surface/50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <TestimonialCard testimonial={testimonial} />
         </div>
       </section>
 
