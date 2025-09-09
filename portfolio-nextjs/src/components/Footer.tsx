@@ -30,7 +30,7 @@ export default function Footer() {
               className="text-text-secondary hover:text-primary-600 transition-colors flex items-center space-x-2"
             >
               <Mail size={18} />
-              <span className="text-sm">Email</span>
+              <span className="text-sm">hi@heyitsjainam.com</span>
             </Link>
             <Link
               href={socialLinks[2].url}
