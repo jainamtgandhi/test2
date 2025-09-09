@@ -31,7 +31,6 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const navigationItems = [
-  { label: 'Home', href: '/' },
   { label: 'Customer Research', href: '/customer-research' },
   { label: 'Market Research', href: '/market-research' },
   { label: 'Competitive Intelligence', href: '/competitive-intelligence' },
