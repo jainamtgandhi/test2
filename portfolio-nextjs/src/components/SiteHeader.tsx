@@ -29,8 +29,8 @@ export default function SiteHeader() {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-surface/80 backdrop-blur-md shadow-lg border-b border-border'
-            : 'bg-transparent'
+            ? 'bg-surface/90 backdrop-blur-md shadow-lg border-b border-border'
+            : 'bg-surface/20 backdrop-blur-sm'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function SiteHeader() {
             {/* Logo */}
             <Link
               href="/"
-              className="text-xl font-heading font-bold text-text-primary hover:text-primary-600 transition-colors"
+              className="text-xl font-heading font-bold text-white hover:text-primary-400 transition-colors drop-shadow-lg"
             >
               Hey It&apos;s Jainam
             </Link>
@@ -49,10 +49,10 @@ export default function SiteHeader() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-primary-600 ${
+                  className={`text-sm font-medium transition-colors hover:text-primary-400 ${
                     pathname === item.href
-                      ? 'text-primary-600'
-                      : 'text-text-secondary'
+                      ? 'text-primary-400'
+                      : 'text-white/90'
                   }`}
                 >
                   {item.label}
@@ -63,7 +63,7 @@ export default function SiteHeader() {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
-              className="md:hidden p-2 text-text-primary hover:text-primary-600 transition-colors"
+              className="md:hidden p-2 text-white hover:text-primary-400 transition-colors"
               aria-label="Toggle mobile menu"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
