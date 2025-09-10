@@ -15,8 +15,8 @@ export default function Hero() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-radial opacity-50" />
       
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="space-y-8">
+      <div className="relative w-full px-4 sm:px-6 lg:px-8 text-center">
+        <div className="space-y-8 max-w-8xl mx-auto">
           {/* Main headline */}
           <h1 className="text-hero font-heading font-bold text-text-primary leading-tight">
             Strategic Marketing That{' '}
@@ -24,7 +24,7 @@ export default function Hero() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed">
             I help B2B companies accelerate growth through customer research, 
             market intelligence, and go-to-market strategies that convert insights into revenue.
           </p>

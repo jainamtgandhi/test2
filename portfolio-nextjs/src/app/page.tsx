@@ -52,13 +52,13 @@ export default function HomePage() {
       
       {/* Work Section */}
       <section id="work-section" className="py-24 bg-card-surface/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-16 max-w-7xl mx-auto"
           >
             <h2 className="text-4xl font-heading font-bold text-text-primary mb-6">
               How I Help Companies Grow
@@ -69,7 +69,7 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {sectionCards.map((card, index) => (
               <SectionCard
                 key={card.href}
@@ -83,15 +83,83 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Stats Section - Utilizing side space */}
+      <section className="py-16 bg-surface/30">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="max-w-8xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Left sidebar content */}
+              <div className="lg:col-span-1">
+                <div className="bg-card-surface/50 border border-border rounded-2xl p-6 h-full">
+                  <h3 className="text-xl font-heading font-semibold text-text-primary mb-4">
+                    Quick Stats
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center">
+                      <span className="text-text-secondary">Projects Completed</span>
+                      <span className="text-primary-600 font-semibold">50+</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-text-secondary">Client Satisfaction</span>
+                      <span className="text-primary-600 font-semibold">98%</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-text-secondary">Avg. Revenue Growth</span>
+                      <span className="text-primary-600 font-semibold">300%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Main content area */}
+              <div className="lg:col-span-1">
+                <div className="bg-card-surface/50 border border-border rounded-2xl p-6 h-full">
+                  <h3 className="text-xl font-heading font-semibold text-text-primary mb-4">
+                    Recent Insights
+                  </h3>
+                  <div className="space-y-3">
+                    <div className="text-sm text-text-secondary">
+                      "Customer research revealed 3 key pain points that weren't being addressed by competitors."
+                    </div>
+                    <div className="text-sm text-text-secondary">
+                      "Market sizing showed a $2B opportunity in an underserved segment."
+                    </div>
+                    <div className="text-sm text-text-secondary">
+                      "Positioning shift led to 40% increase in qualified leads."
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right sidebar content */}
+              <div className="lg:col-span-1">
+                <div className="bg-card-surface/50 border border-border rounded-2xl p-6 h-full">
+                  <h3 className="text-xl font-heading font-semibold text-text-primary mb-4">
+                    Tools & Methods
+                  </h3>
+                  <div className="space-y-2">
+                    <div className="text-sm text-text-secondary">• Jobs-to-be-Done Framework</div>
+                    <div className="text-sm text-text-secondary">• Competitive Analysis</div>
+                    <div className="text-sm text-text-secondary">• Customer Journey Mapping</div>
+                    <div className="text-sm text-text-secondary">• Value Proposition Design</div>
+                    <div className="text-sm text-text-secondary">• Go-to-Market Planning</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Case Study */}
       <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-16 max-w-7xl mx-auto"
           >
             <h2 className="text-4xl font-heading font-bold text-text-primary mb-6">
               Featured Case Study
@@ -101,7 +169,7 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <CaseStudyCard caseStudy={caseStudy} />
           </div>
         </div>
