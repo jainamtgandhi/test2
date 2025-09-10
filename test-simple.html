@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Test - Future of Supply Chain</title>
+    <title>Hey It's Jainam - Test</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,49 +13,77 @@
             color: white;
             min-height: 100vh;
         }
-        
-        .hero {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             text-align: center;
-            padding: 50px 20px;
         }
-        
         h1 {
             font-size: 3rem;
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
+            font-weight: bold;
         }
-        
+        .gradient-text {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
         p {
             font-size: 1.2rem;
-            margin-bottom: 30px;
+            margin-bottom: 2rem;
+            opacity: 0.9;
         }
-        
-        .test-button {
-            background: rgba(255, 255, 255, 0.2);
+        .button {
+            background: #4ecdc4;
             color: white;
-            padding: 15px 30px;
-            text-decoration: none;
+            padding: 12px 24px;
+            border: none;
             border-radius: 8px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
             display: inline-block;
         }
-        
-        .test-button:hover {
-            background: rgba(255, 255, 255, 0.3);
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            background: #4ecdc4;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>Future of Supply Chain</h1>
-        <p>This is a simple test to verify the UI is working</p>
-        <a href="#" class="test-button">Test Button</a>
+    <div class="container">
+        <h1>Strategic Marketing That <span class="gradient-text">Drives Growth</span></h1>
+        <p>I help B2B companies accelerate growth through customer research, market intelligence, and go-to-market strategies that convert insights into revenue.</p>
+        <a href="#" class="button">View My Work</a>
+        <div class="stats">
+            <div class="stat">
+                <div class="dot"></div>
+                <span>5+ Years Experience</span>
+            </div>
+            <div class="stat">
+                <div class="dot"></div>
+                <span>50+ Successful Campaigns</span>
+            </div>
+            <div class="stat">
+                <div class="dot"></div>
+                <span>300% Average Revenue Growth</span>
+            </div>
+        </div>
     </div>
-    
-    <script>
-        console.log('Page loaded successfully!');
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('DOM fully loaded!');
-        });
-    </script>
 </body>
 </html>
