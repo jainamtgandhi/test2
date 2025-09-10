@@ -25,7 +25,7 @@ export default function CTASection() {
         className="inline-flex items-center space-x-2 bg-white text-primary-600 hover:bg-blue-50 px-8 py-4 rounded-2xl font-semibold transition-all duration-200 group"
       >
         <Mail className="w-5 h-5" />
-        <span>Get In Touch</span>
+        <span>hi@heyitsjainam.com</span>
       </Link>
     </motion.section>
   );
