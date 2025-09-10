@@ -34,11 +34,11 @@ export default function SiteHeader() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 md:h-20">
+          <div className="flex items-center justify-between h-16 md:h-18">
             {/* Logo */}
             <Link
               href="/"
-              className="text-xl md:text-2xl font-heading font-bold text-white hover:text-primary-400 transition-colors drop-shadow-lg"
+              className="text-xl md:text-lg font-heading font-bold text-white hover:text-primary-400 transition-colors drop-shadow-lg"
             >
               Hey It&apos;s Jainam
             </Link>
@@ -49,7 +49,7 @@ export default function SiteHeader() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-sm md:text-lg font-medium transition-colors hover:text-primary-400 ${
+                  className={`text-sm md:text-base font-medium transition-colors hover:text-primary-400 ${
                     pathname === item.href
                       ? 'text-primary-400'
                       : 'text-white/90'
@@ -76,7 +76,7 @@ export default function SiteHeader() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-40 md:hidden">
           <div className="fixed inset-0 bg-black/50" onClick={toggleMobileMenu} />
-          <div className="fixed top-16 md:top-20 left-0 right-0 bg-card-surface border-b border-border shadow-lg">
+          <div className="fixed top-16 md:top-18 left-0 right-0 bg-card-surface border-b border-border shadow-lg">
             <nav className="px-4 py-6 space-y-4">
               {navigationItems.map((item) => (
                 <Link
