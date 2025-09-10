@@ -1,5 +1,6 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
 
 export default function Hero() {
@@ -16,7 +17,12 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-radial opacity-50" />
       
       <div className="relative w-full px-4 sm:px-6 lg:px-8 text-center">
-        <div className="space-y-8 max-w-8xl mx-auto">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="space-y-8 max-w-8xl mx-auto"
+        >
           {/* Main headline */}
           <h1 className="text-hero font-heading font-bold text-text-primary leading-tight">
             Strategic Marketing That{' '}
@@ -57,7 +63,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Scroll indicator */}
