@@ -119,13 +119,13 @@ export default function HomePage() {
                   </h3>
                   <div className="space-y-3">
                     <div className="text-sm text-text-secondary">
-                      "Customer research revealed 3 key pain points that weren't being addressed by competitors."
+                      &ldquo;Customer research revealed 3 key pain points that weren&apos;t being addressed by competitors.&rdquo;
                     </div>
                     <div className="text-sm text-text-secondary">
-                      "Market sizing showed a $2B opportunity in an underserved segment."
+                      &ldquo;Market sizing showed a $2B opportunity in an underserved segment.&rdquo;
                     </div>
                     <div className="text-sm text-text-secondary">
-                      "Positioning shift led to 40% increase in qualified leads."
+                      &ldquo;Positioning shift led to 40% increase in qualified leads.&rdquo;
                     </div>
                   </div>
                 </div>
