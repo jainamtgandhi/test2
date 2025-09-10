@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="space-y-8">
           {/* Main headline */}
           <h1 className="text-hero font-heading font-bold text-text-primary leading-tight">
-            Strategic Product Marketing That{' '}
+            Strategic Marketing That{' '}
             <span className="text-gradient">Drives Growth</span>
           </h1>
 
