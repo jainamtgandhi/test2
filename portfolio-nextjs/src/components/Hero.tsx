@@ -31,8 +31,7 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed">
-            I help B2B companies accelerate growth through customer research, 
-            market intelligence, and go-to-market strategies that convert insights into revenue.
+            I help B2B companies accelerate growth through go-to-market strategies that convert insights into revenue.
           </p>
 
           {/* CTAs */}
